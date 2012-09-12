@@ -36,6 +36,9 @@
 (def/route contacts ("contacts")
   (old-page "content/contacts.htm"))
 
+(def/route about ("news")
+  (old-page "content/news.htm"))
+
 (def/route about ("about")
   (old-page "content/about.htm"))
 
@@ -48,8 +51,8 @@
 (def/route catalog ("catalog")
   (old-page "content/catalog.htm"))
 
-(def/route service_and_price ("service_and_price")
-  (old-page "content/service_and_price.htm"))
+(def/route service_and_price ("serv-price")
+  (old-page "content/serv-price.htm"))
 
 
 ;; submodules

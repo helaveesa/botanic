@@ -57,10 +57,12 @@
                (let ((size (parse-integer (cadr x) :junk-allowed t)))
                  (if (null size)
                      t
-                     (= size 15*26)
-                     (= size 30*56)
-                     (= size 40*75))))
-           (get-prices "catalog-kashpo/prices-kashpo.txt"))
+                     (if (= size 15*26)
+                         (get-prices "catalog-kashpo/prices-kashpo.txt"))
+                     (if (= size 30*56)
+                         (get-prices "catalog-kashpo/prices-kashpo.txt"))
+                     (if (= size 40*75)
+                         (get-prices "catalog-kashpo/prices-kashpo.txt"))
 
 
 ;; модель(DELTA20)(+)
