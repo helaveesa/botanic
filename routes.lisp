@@ -36,7 +36,7 @@
 (def/route contacts ("contacts")
   (old-page "content/contacts.htm"))
 
-(def/route about ("news")
+(def/route news ("news")
   (old-page "content/news.htm"))
 
 (def/route about ("about")
