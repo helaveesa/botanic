@@ -113,8 +113,6 @@
   (old-page "content/articles/articles-vybor-rasteniy-dlya-doma-i-ofisa.htm"))
 
 
-
-
 ;; submodules
 
 (restas:mount-submodule -css- (#:restas.directory-publisher)
