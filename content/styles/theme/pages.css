@@ -9,22 +9,22 @@ body.level-one #header #overlay #page-menu {
   display: none; }
 
 body.about-us #header #overlay .up-arrow {
-  border-color: #a9dff9 transparent; }
+  border-color: #a9dff9 transparent; } \\светло-зел\\
 
 body.newsroom #header #overlay .up-arrow {
-  border-color: #01456a transparent; }
+  border-color: #01456a transparent; } \\темно-зел\\
 
 body.business-services.overview #header #overlay .up-arrow {
   border-color: #341e11 transparent; }
 
 body.echo-platform #header #overlay .up-arrow {
-  border-color: #02618f transparent; }
+  border-color: #02618f transparent; } \\темно-зел-чуть\\
 
 body.management #header #overlay .up-arrow, body.investors #header #overlay .up-arrow, body.app-live-demo #header #overlay .up-arrow, body.app-features #header #overlay .up-arrow, body.privacy-policy #header #overlay .up-arrow, body.app-ecosystem #header #overlay .up-arrow, body.support #header #overlay .up-arrow, body.wwo-overview #header #overlay .up-arrow, body.echo-platform.overview #header #overlay .up-arrow, body.partner-ecosystem #header #overlay .up-arrow, body.strategic-guidance #header #overlay .up-arrow, body.industry-solutions #header #overlay .up-arrow, body.customer-success #header #overlay .up-arrow, body.app-case-studies.app-RealtidbitsComments.cs-AMCNetworks #header #overlay .up-arrow, body.app-family #header #overlay .up-arrow {
   border-color: white transparent; }
 
 body.industry-solutions.social-music #header #overlay .up-arrow, body.industry-solutions.social-news #header #overlay .up-arrow, body.industry-solutions.social-commerce #header #overlay .up-arrow, body.industry-solutions.social-finance #header #overlay .up-arrow {
-  border-color: #069 transparent; }
+  border-color: #069 transparent; } \\чуть-темно-зел\\
 
 body.app-overview #header #overlay .up-arrow, body.corporate-partners #header #overlay .up-arrow, body.agency-partners #header #overlay .up-arrow {
   border-color: #F3F3F3 transparent; }
@@ -33,10 +33,10 @@ body.developer-partners #header #overlay .up-arrow {
   border-color: #dddee2 transparent; }
 
 body.contact-us #header #overlay .up-arrow {
-  border-color: #004456 transparent; }
+  border-color: #004456 transparent; } \\насыщенный зел темный\\
 
 body.were-hiring #header #overlay .up-arrow {
-  border-color: #1d91ba transparent; }
+  border-color: #1d91ba transparent; } \\зеленый\\
 
 body.business-services #header #breadcrumbs, body.industry-solutions #header #breadcrumbs, body.app #header #breadcrumbs {
   font-size: 28px; }
@@ -45,7 +45,7 @@ a[href="/Apps/RealtimeConversation/RealtidbitsComments/CaseStudies "] {
   display: none; }
 
 body.app-case-studies.app-RealtidbitsComments #header #overlay .up-arrow {
-  border-color: #1d63d3 transparent; }
+  border-color: #1d63d3 transparent; } \\насыщенный зел яркий не темн\\
 
 body.app-case-studies.app-Lifestreams #header #overlay .up-arrow {
   border-color: #eff2eb transparent; }
@@ -84,7 +84,7 @@ body.home #stream-counter a.btn {
 body.home #industry-solutions h2 a {
   color: #333; }
 body.home #industry-solutions h2 a:hover {
-  color: #19b9f3; }
+  color: #19b9f3; } \\зел\\
 body.home #industry-solutions li {
   display: block;
   float: left;
@@ -110,7 +110,7 @@ body.home #industry-solutions li {
     -o-transition: top 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
     transition: top 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s; }
   body.home #industry-solutions li a:hover > div {
-    background-color: #19b9f3; }
+    background-color: #19b9f3; } \\зел\\
 body.home #industry-solutions li:last-child {
   margin-right: 0px; }
 body.home #app-ecosystem > div {
@@ -118,7 +118,7 @@ body.home #app-ecosystem > div {
 body.home #app-ecosystem h2 a {
   color: #333; }
 body.home #app-ecosystem h2 a:hover {
-  color: #19b9f3; }
+  color: #19b9f3; } \\зел\\
 body.home #echo-platform > div {
   padding: 40px 0px; }
   body.home #echo-platform > div > div {
@@ -132,7 +132,7 @@ body.home #echo-platform h2 {
   body.home #echo-platform h2 a {
     color: #333; }
   body.home #echo-platform h2 a:hover {
-    color: #19b9f3; }
+    color: #19b9f3; } \\зел\\
 body.home #echo-platform ul {
   float: right;
   width: 610px; }
@@ -149,7 +149,7 @@ body.home #echo-platform ul {
     body.home #echo-platform ul li a {
       color: white; }
     body.home #echo-platform ul li a:hover {
-      color: #19b9f3; }
+      color: #19b9f3; } \\зел\\
   body.home #echo-platform ul li:first-child {
     margin-left: 0px; }
 body.home #article-thrive > div {
@@ -161,18 +161,18 @@ body.home #article-thrive div.video {
   float: right; }
 body.home #article-amc > div {
   padding: 60px 0px;
-  height: 615px;
-  background: url("/Content/Images/Homepage/case-study.jpg") no-repeat left 60px; }
+  height: 749px;
+  background: url("/botanic/img/IMG_2405s.jpg") no-repeat left 60px; }
 
 /**
 	ABOUT US /AboutEcho
 **/
 body.about-us section.feature {
-  background-color: #a9dff9; }
+  background-color: #a9dff9; } \\светло-зел\\
   body.about-us section.feature > div {
     padding: 0px;
     height: 470px;
-    background: url("/Content/Images/AboutEcho/AboutUs/banner.jpg") no-repeat right 105px; }
+    background: url("/botanic/img/pic.jpg") no-repeat right 105px; }
     body.about-us section.feature > div div.banner-copy {
       padding-top: 200px; }
 body.about-us #stream-counter {
@@ -185,11 +185,11 @@ body.about-us #stream-numbers > div {
   body.about-us #stream-numbers > div > div {
     padding-top: 375px; }
 body.about-us #stream-numbers .left {
-  background: url("/Content/Images/AboutEcho/AboutUs/40-million.jpg") no-repeat center top;
+  background: url("/botanic/img/pic1.jpg") no-repeat center top;
   width: 450px;
   margin-left: 20px; }
 body.about-us #stream-numbers .right {
-  background: url("/Content/Images/AboutEcho/AboutUs/50-billion.jpg") no-repeat center top;
+  background: url("/botanic/img/pic2.jpg") no-repeat center top;
   width: 425px;
   margin-left: 45px; }
 body.about-us #stream-numbers p {
@@ -242,7 +242,7 @@ body.about-us #timeline .timeline-item {
     padding: 0px;
     font-size: 33px;
     line-height: 33px;
-    color: #19b9f3; }
+    color: #19b9f3; } \\зел\\
     body.about-us #timeline .timeline-item h4 span {
       background-color: white; }
   body.about-us #timeline .timeline-item p {
@@ -252,7 +252,7 @@ body.about-us #timeline .timeline-item {
 	NEWSROOM /AboutEcho/Newsroom
 **/
 body.newsroom #latest {
-  background-color: #01456a;
+  background-color: #01456a; \\оч.темно-зел насыщ\\
   color: white; }
   body.newsroom #latest > div {
     padding-top: 140px; }
@@ -291,11 +291,11 @@ body.newsroom #customer-success article, body.newsroom #echo-in-news article {
   body.newsroom #customer-success article h3, body.newsroom #echo-in-news article h3 {
     margin: 0px 0px 30px;
     font-size: 28px;
-    color: #19b9f3; }
+    color: #19b9f3; } \\зел\\
   body.newsroom #customer-success article h6 a, body.newsroom #echo-in-news article h6 a {
     color: #333; }
   body.newsroom #customer-success article h6 a:hover, body.newsroom #echo-in-news article h6 a:hover {
-    color: #19b9f3; }
+    color: #19b9f3; } \\зел\\
 body.newsroom #customer-success article:last-child, body.newsroom #echo-in-news article:last-child {
   margin-right: 0; }
 
@@ -310,7 +310,7 @@ body.management #staff .row {
     width: 320px;
     float: left; }
     body.management #staff .row > div h2 {
-      color: #19b9f3;
+      color: #19b9f3; \\зел\\
       margin: 30px 0px 0px; }
     body.management #staff .row > div h3 {
       font-size: 18px;
@@ -325,7 +325,7 @@ body.management #staff .row {
 	WE'RE HIRING /AboutEcho/WereHiring
 **/
 body.were-hiring section.feature {
-  background: black url("/Content/Images/AboutEcho/WereHiring/banner.jpg") no-repeat center top;
+  background: black url("/botanic/img/banner-zelen.jpg") no-repeat center top;
   height: 500px; }
   body.were-hiring section.feature > div {
     padding: 0px;
@@ -361,7 +361,7 @@ body.investors #investors > div {
     body.investors #investors > div > div img {
       margin-bottom: 60px; }
     body.investors #investors > div > div h2 {
-      color: #19b9f3; }
+      color: #19b9f3; } \\зел\\
     body.investors #investors > div > div p {
       width: 375px; }
 
@@ -376,7 +376,7 @@ body.contact-us #contact-form > div {
 body.contact-us #contact-form > div h6, body.api-key-request-form #contact-form > div h6, body.subscribe #contact-form > div h6 {
   font-family: 'OpenSansRegular'; }
 body.contact-us #contact-form > div h2, body.api-key-request-form #contact-form > div h2, body.subscribe #contact-form > div h2 {
-  color: #19b9f3; }
+  color: #19b9f3; } \\зел\\
 body.contact-us #contact-form > div > div, body.api-key-request-form #contact-form > div > div, body.subscribe #contact-form > div > div {
   float: left; }
 body.contact-us #contact-form > div div.left, body.api-key-request-form #contact-form > div div.left, body.subscribe #contact-form > div div.left {
@@ -407,7 +407,7 @@ body.contact-us form textarea, body.api-key-request-form form textarea, body.sub
 	PARTNER ECOSYSTEM
 **/
 body.partner-ecosystem .feature {
-  background: black url("/Content/Images/PartnerEcosystem/Overview/banner.jpg") no-repeat center top;
+  background: black url("/botanic/img/banner-neg-zel.jpg") no-repeat center top;
   height: 500px; }
   body.partner-ecosystem .feature > div {
     padding-bottom: 32px; }
@@ -482,7 +482,7 @@ body.corporate-partners section.partner > div, body.agency-partners section.part
       color: #666; }
 
 body.developer-partners section.feature, body.custom-apps section.feature {
-  background: transparent url("/Content/Images/PartnerEcosystem/Developer/banner.jpg") no-repeat center top; }
+  background: transparent url("/botanic/img/banner3.jpg") no-repeat center top; }
   body.developer-partners section.feature > div, body.custom-apps section.feature > div {
     padding: 0px;
     height: 416px; }
@@ -509,14 +509,14 @@ body.developer-partners #reasons div.right, body.custom-apps #reasons div.right 
       left: 0px;
       font-size: 24px;
       color: white;
-      background-color: #19b9f3;
+      background-color: #19b9f3; \\зел\\
       width: 30px;
       height: 30px;
       text-align: center;
       line-height: 30px; }
     body.developer-partners #reasons div.right div.item h3, body.custom-apps #reasons div.right div.item h3 {
       font-family: 'OpenSansRegular';
-      color: #19b9f3;
+      color: #19b9f3; \\зел\\
       font-size: 14px;
       line-height: 14px;
       margin: 0px 0px 5px; }
@@ -551,14 +551,14 @@ body.echo-enabled-program #reasons div.item {
     left: 0px;
     font-size: 24px;
     color: white;
-    background-color: #19b9f3;
+    background-color: #19b9f3;\\зел\\
     width: 30px;
     height: 30px;
     text-align: center;
     line-height: 30px; }
   body.echo-enabled-program #reasons div.item h3 {
     font-family: 'OpenSansRegular';
-    color: #19b9f3;
+    color: #19b9f3; \\зел\\
     font-size: 14px;
     line-height: 14px;
     margin: 0px 0px 5px; }
@@ -692,7 +692,7 @@ body.app #app-minor-features-btn {
       padding-left: 9px;
       background: url(/Content/Images/Global/Icons/arrow-right-large.png) no-repeat 0px -18px; }
   body.app #app-minor-features-btn a:hover {
-    color: #19b9f3; }
+    color: #19b9f3; } \\зел\\
     body.app #app-minor-features-btn a:hover span {
       background-position: 0px 0px; }
 body.app #app-minor-features-list li {
@@ -752,7 +752,7 @@ body.app-case-studies #copy .primary {
   width: 290px; }
   body.app-case-studies #copy .primary .quote {
     font-size: 16px;
-    background-color: #19b9f3;
+    background-color: #19b9f3; \\зел\\
     color: white;
     padding: 15px;
     width: 260px;
@@ -802,7 +802,7 @@ body.app-live-demo #demo .list > div {
     top: 5px;
     left: 0px;
     font-size: 28px;
-    color: #19b9f3; }
+    color: #19b9f3; } \\зел\\
 
 body.support #support > div {
   padding-top: 150px; }
@@ -837,7 +837,7 @@ body.support #support .right {
   border-left: 1px solid #ddd; }
   body.support #support .right h3 {
     font-size: 26px;
-    color: #19b9f3; }
+    color: #19b9f3; } \\зел\\
   body.support #support .right p {
     margin: 15px 0px 0px; }
     body.support #support .right p em {
@@ -845,7 +845,7 @@ body.support #support .right {
       font-family: 'OpenSansRegular'; }
 
 body.industry-solutions section.feature {
-  background: transparent url("/Content/Images/PartnerEcosystem/Developer/img-header-sample.jpg") no-repeat center top; }
+  background: transparent url("/botanic/img/banner5.jpg") no-repeat center top; }
   body.industry-solutions section.feature > div {
     padding: 0px;
     height: 416px; }
@@ -864,7 +864,7 @@ body.industry-solutions #industry-solutions li {
     body.industry-solutions #industry-solutions li h3 a {
       color: #333; }
     body.industry-solutions #industry-solutions li h3 a:hover > div {
-      background-color: #19b9f3; }
+      background-color: #19b9f3; } \\зел\\
 body.industry-solutions #industry-solutions li:nth-child(3n) {
   margin-right: 0px; }
 body.industry-solutions #echo-enabled-apps > div {
@@ -950,7 +950,7 @@ body.business-services.overview #industry-solutions li {
     -o-transition: top 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
     transition: top 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s; }
   body.business-services.overview #industry-solutions li a:hover > div {
-    background-color: #19b9f3; }
+    background-color: #19b9f3; } \\зел\\
 body.business-services.overview #industry-solutions li:last-child {
   margin-right: 0px; }
 body.business-services.overview #business-features h2 {
@@ -970,7 +970,7 @@ body.business-services.overview #business-features .clearfix > div {
   body.business-services.overview #business-features .clearfix > div a {
     color: #333; }
   body.business-services.overview #business-features .clearfix > div a:hover {
-    color: #19b9f3; }
+    color: #19b9f3; } \\зел\\
 body.business-services.overview #business-features .clearfix > div:last-child {
   margin-right: 0px; }
 
@@ -1003,7 +1003,7 @@ body.wwo-overview #diagram .right {
     width: 621px;
     height: 520px; }
 body.wwo-overview #facebook {
-  background-color: #006599;
+  background-color: #006599; \\темно-зел\\
   color: white; }
   body.wwo-overview #facebook > div {
     padding: 40px 0px 50px; }
@@ -1054,7 +1054,7 @@ body.cs-case-studies #case-studies li {
     -o-transition: top 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
     transition: top 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s; }
   body.cs-case-studies #case-studies li a:hover > div {
-    background-color: #19b9f3; }
+    background-color: #19b9f3; } \\зел\\
 body.cs-case-studies #case-studies li:last-child {
   margin-right: 0px; }
 
@@ -1068,7 +1068,7 @@ body.custom-wwe section.copy .right {
   width: 450px; }
   body.custom-wwe section.copy .right .quote {
     font-size: 16px;
-    background-color: #19b9f3;
+    background-color: #19b9f3; \\зел\\
     color: white;
     padding: 15px;
     width: 260px;
