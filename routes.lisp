@@ -3,7 +3,7 @@
 
 ;; 404
 
-(defun page-404 (&optional (title "404 Not Found") (content "Страница не найдена"))
+(defun page-404 (&optional (title "404 Not Found: извините,страница, которую Вы запросили, не находится в нашей базе данных. Скорее всего вы попали на битую ссылку или опечатались при вводе URL") (content "Страница не найдена"))
   "404")
 
 (restas:define-route not-found-route ("*any")
@@ -37,58 +37,71 @@
   (old-page "content/index.htm"))
 
 (def/route about ("about")
-  (old-page "content/about-company.htm"))
-(def/route about ("about")
-  (old-page "content/about-clients.htm"))
+  (old-page "content/aboutclients.htm"))
+
 (def/route about ("about")
   (old-page "content/work.htm"))
 
-
 (def/route galery ("galery")
   (old-page "content/inter.htm"))
+
 (def/route galery ("galery")
-  (old-page "content/drugie-inter.htm"))
+  (old-page "content/drugieinter.htm"))
+
 (def/route galery ("galery")
   (old-page "content/city.htm"))
+
 (def/route galery ("galery")
-  (old-page "content/drugie-city.htm"))
+  (old-page "content/drugiecity.htm"))
+
 (def/route galery ("galery")
   (old-page "content/landshaf.htm"))
+
 (def/route galery ("galery")
-  (old-page "content/drugie-landshaf.htm"))
-
+  (old-page "content/drugielandshaf.htm"))
 
 (def/route catal ("catal")
-  (old-page "content/cat-r.htm"))
+  (old-page "content/catr.htm"))
+
 (def/route catal ("catal")
-  (old-page "content/cat-k.htm"))
+  (old-page "content/catk.htm"))
+
 (def/route catal ("catal")
   (old-page "content/iskuss.htm"))
 
 (def/route serv-price ("serv-price")
-  (old-page "content/ozelen-fitodiz.htm"))
+  (old-page "content/ozelenfitodiz.htm"))
+
 (def/route serv-price ("serv-price")
-  (old-page "content/prof-uhod.htm"))
+  (old-page "content/profuhod.htm"))
 
 (def/route service ("service")
   (old-page "content/ozelenenie.htm"))
+
 (def/route service ("service")
   (old-page "content/fitodiz.htm"))
+
 (def/route service ("service")
-  (old-page "content/oforml-int.htm"))
+  (old-page "content/oformlint.htm"))
+
 (def/route service ("service")
-  (old-page "content/zim-sad.htm"))
+  (old-page "content/zimsad.htm"))
+
 (def/route service ("service")
-  (old-page "content/kompoz-flower.htm"))
+  (old-page "content/kompozflower.htm"))
+
 (def/route service ("service")
   (old-page "content/NY.htm"))
+
 (def/route service ("service")
-  (old-page "content/landshaf-diz.htm"))
+  (old-page "content/landshafdiz.htm"))
+
 (def/route service ("service")
-  (old-page "content/uhod-room-flower.htm"))
+  (old-page "content/uhodroomflower.htm"))
 
 (def/route contacts ("contacts")
   (old-page "content/telephon.htm"))
+
 (def/route contacts ("contacts")
   (old-page "content/zakaz.htm"))
 
@@ -97,20 +110,27 @@
 
 (def/route articles ("articles")
   (old-page "content/articles.htm"))
+
 (def/route articles ("articles")
-  (old-page "content/articles-istoriya-zimnih-sadov.htm"))
+  (old-page "content/artizs.htm"))
+
 (def/route articles ("articles")
-  (old-page "content/articles-kakie-rasteniya-vybrat-dlya-ofisa.htm"))
+  (old-page "content/artkrvdo.htm"))
+
 (def/route articles ("articles")
-  (old-page "content/articles-kashpo-gorshki.htm"))
+  (old-page "content/artkg.htm"))
+
 (def/route articles ("articles")
-  (old-page "content/articles-komnatnye-rasteniya-spasut-ofisnyh-rabotnikov.htm"))
+  (old-page "content/artkrsor.htm"))
+
 (def/route articles ("articles")
-  (old-page "content/articles-rasteniya-dlya-zimnego-sada.htm"))
+  (old-page "content/artrdzs.htm"))
+
 (def/route articles ("articles")
-  (old-page "content/articles-tehnicheskie-harakteristiki-zimnih-sadov.htm"))
+  (old-page "content/artthzs.htm"))
+
 (def/route articles ("articles")
-  (old-page "content/articles-vybor-rasteniy-dlya-doma-i-ofisa.htm"))
+  (old-page "content/artvrddo.htm"))
 
 
 ;; submodules
