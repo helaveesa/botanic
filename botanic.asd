@@ -16,5 +16,4 @@
                  (:file "defmodule")
                  (:file "render")
                  (:file "routes")
-                 (:file "init")
-                 (:file "catalog")))
+                 (:file "init")))
