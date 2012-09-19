@@ -76,6 +76,9 @@
   (old-page "content/prof-uhod.htm"))
 
 (def/route service ("service")
+  (old-page "content/service.htm"))
+
+(def/route service ("service")
   (old-page "content/ozelenenie.htm"))
 
 (def/route service ("service")
@@ -98,6 +101,57 @@
 
 (def/route service ("service")
   (old-page "content/uhod-room-flower.htm"))
+
+(def/route ozelenenie ("ozelenenie")
+  (old-page "content/ozelenenie-offic.htm"))
+
+(def/route ozelenenie ("ozelenenie")
+  (old-page "content/city-ozelenenie.htm"))
+
+(def/route fitodiz ("fitodiz")
+  (old-page "content/fitodiz-int.htm"))
+
+(def/route fitodiz ("fitodiz")
+  (old-page "content/flower-offic.htm"))
+
+(def/route fitodiz ("fitodiz")
+  (old-page "content/rastenie-offic.htm"))
+
+(def/route oforml-int ("oforml-int")
+  (old-page "content/oforml-offic.htm"))
+
+(def/route oforml-int ("oforml-int")
+  (old-page "content/oforml-cafe.htm"))
+
+(def/route oforml-int ("oforml-int")
+  (old-page "content/oforml-hotel.htm"))
+
+(def/route oforml-int ("oforml-int")
+  (old-page "content/oforml-spa.htm"))
+
+(def/route oforml-int ("oforml-int")
+  (old-page "content/oforml-shop.htm"))
+
+(def/route oforml-int ("oforml-int")
+  (old-page "content/oforml-car.htm"))
+
+(def/route zimsad ("zimsad")
+  (old-page "content/zimsad-cottadge.htm"))
+
+(def/route zimsad ("zimsad")
+  (old-page "content/dizint-zimsad.htm"))
+
+(def/route zimsad ("zimsad")
+  (old-page "content/rastenie-zimsad.htm"))
+
+(def/route landshafdiz ("landshafdiz")
+  (old-page "content/landshafdiz-city.htm"))
+
+(def/route landshafdiz ("landshafdiz")
+  (old-page "content/landshafdiz-village.htm"))
+
+(def/route contacts ("contacts")
+  (old-page "content/contacts.htm"))
 
 (def/route contacts ("contacts")
   (old-page "content/telephon.htm"))
@@ -132,6 +186,8 @@
 (def/route articles ("articles")
   (old-page "content/artvrddo.htm"))
 
+(def/route news ("news")
+  (old-page "content/news.htm"))
 
 ;; submodules
 
