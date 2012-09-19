@@ -174,35 +174,44 @@
 (def/route contacts ("contacts")
   (old-page "content/zakaz.htm"))
 
-(def/route akcii ("akcii")
-  (old-page "content/akcii.htm"))
-
 (def/route articles ("articles")
   (old-page "content/articles.htm"))
 
 (def/route articles ("articles")
-  (old-page "content/artizs.htm"))
+  (old-page "content/vibor-offic.htm"))
 
 (def/route articles ("articles")
-  (old-page "content/artkrvdo.htm"))
+  (old-page "content/dom-offic.htm"))
 
 (def/route articles ("articles")
-  (old-page "content/artkg.htm"))
+  (old-page "content/spasti-offic.htm"))
 
 (def/route articles ("articles")
-  (old-page "content/artkrsor.htm"))
+  (old-page "content/tehnich-har.htm"))
 
 (def/route articles ("articles")
-  (old-page "content/artrdzs.htm"))
+  (old-page "content/history-zimsad.htm"))
 
 (def/route articles ("articles")
-  (old-page "content/artthzs.htm"))
+  (old-page "content/teory.htm"))
 
 (def/route articles ("articles")
-  (old-page "content/artvrddo.htm"))
+  (old-page "content/emkosti.htm"))
 
 (def/route news ("news")
   (old-page "content/news.htm"))
+
+(def/route news ("news")
+  (old-page "content/intel.htm"))
+
+(def/route news ("news")
+  (old-page "content/raduga.htm"))
+
+(def/route news ("news")
+  (old-page "content/umo-konsalt.htm"))
+
+(def/route news ("news")
+  (old-page "content/optek.htm"))
 
 ;; submodules
 
