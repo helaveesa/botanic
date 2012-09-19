@@ -37,6 +37,12 @@
   (old-page "content/index.htm"))
 
 (def/route about ("about")
+  (old-page "content/about.htm"))
+
+(def/route about ("about")
+  (old-page "content/about-company.htm"))
+
+(def/route about ("about")
   (old-page "content/about-clients.htm"))
 
 (def/route about ("about")
@@ -74,6 +80,9 @@
 
 (def/route catal ("catal")
   (old-page "content/iskuss.htm"))
+
+(def/route serv-price ("serv-price")
+  (old-page "content/serv-price.htm"))
 
 (def/route serv-price ("serv-price")
   (old-page "content/ozelen-fitodiz.htm"))

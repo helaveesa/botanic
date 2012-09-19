@@ -2,6 +2,7 @@
 
 (defun menu ()
   (list (list :link "/" :title "Главная")
+        (list :link "/about/" :title "Компания")
         (list :link "/about-company/" :title "О нас")
         (list :link "/about-clients/" :title "Наши-клиенты")
         (list :link "/work/" :title "Как-мы-работаем")
@@ -17,6 +18,7 @@
         (list :link "/catr/" :title "Каталог-растений")
         (list :link "/catk/" :title "Каталог-кашпо")
         (list :link "/iskuss/" :title "Искусственные-растения")
+        (list :link "/serv-price/" :title "Услуги-и-цены")
         (list :link "/ozelen-fitodiz/" :title "Озеленение-и-фитодизайн-интерьеров")
         (list :link "/prof-uhod/" :title "Профессиональный-уход-за-комнатными-растениями")
         (list :link "/service/" :title "Услуги")
