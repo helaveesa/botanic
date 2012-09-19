@@ -37,7 +37,7 @@
   (old-page "content/index.htm"))
 
 (def/route about ("about")
-  (old-page "content/aboutclients.htm"))
+  (old-page "content/about-clients.htm"))
 
 (def/route about ("about")
   (old-page "content/work.htm"))
@@ -46,19 +46,19 @@
   (old-page "content/inter.htm"))
 
 (def/route galery ("galery")
-  (old-page "content/drugieinter.htm"))
+  (old-page "content/drugie-inter.htm"))
 
 (def/route galery ("galery")
   (old-page "content/city.htm"))
 
 (def/route galery ("galery")
-  (old-page "content/drugiecity.htm"))
+  (old-page "content/drugie-city.htm"))
 
 (def/route galery ("galery")
   (old-page "content/landshaf.htm"))
 
 (def/route galery ("galery")
-  (old-page "content/drugielandshaf.htm"))
+  (old-page "content/drugie-landshaf.htm"))
 
 (def/route catal ("catal")
   (old-page "content/catr.htm"))
@@ -70,10 +70,10 @@
   (old-page "content/iskuss.htm"))
 
 (def/route serv-price ("serv-price")
-  (old-page "content/ozelenfitodiz.htm"))
+  (old-page "content/ozelen-fitodiz.htm"))
 
 (def/route serv-price ("serv-price")
-  (old-page "content/profuhod.htm"))
+  (old-page "content/prof-uhod.htm"))
 
 (def/route service ("service")
   (old-page "content/ozelenenie.htm"))
@@ -82,13 +82,13 @@
   (old-page "content/fitodiz.htm"))
 
 (def/route service ("service")
-  (old-page "content/oformlint.htm"))
+  (old-page "content/oforml-int.htm"))
 
 (def/route service ("service")
   (old-page "content/zimsad.htm"))
 
 (def/route service ("service")
-  (old-page "content/kompozflower.htm"))
+  (old-page "content/kompoz-flower.htm"))
 
 (def/route service ("service")
   (old-page "content/NY.htm"))
@@ -97,7 +97,7 @@
   (old-page "content/landshafdiz.htm"))
 
 (def/route service ("service")
-  (old-page "content/uhodroomflower.htm"))
+  (old-page "content/uhod-room-flower.htm"))
 
 (def/route contacts ("contacts")
   (old-page "content/telephon.htm"))
