@@ -42,6 +42,12 @@
 (def/route about ("about")
   (old-page "content/work.htm"))
 
+(def/route akcii ("akcii")
+  (old-page "content/akcii.htm"))
+
+(def/route galery ("galery")
+  (old-page "content/galery.htm"))
+
 (def/route galery ("galery")
   (old-page "content/inter.htm"))
 

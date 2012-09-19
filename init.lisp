@@ -5,6 +5,8 @@
         (list :link "/about-company/" :title "О нас")
         (list :link "/about-clients/" :title "Наши-клиенты")
         (list :link "/work/" :title "Как-мы-работаем")
+        (list :link "/akcii/" :title "Акции")
+        (list :link "/galery/" :title "Галерея")
         (list :link "/inter/" :title "Оформление-интерьеров")
         (list :link "/drugie-inter/" :title "Другие-клиенты")
         (list :link "/city/" :title "Городское-озеленение")
