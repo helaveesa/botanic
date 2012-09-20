@@ -2,324 +2,277 @@
 
 {namespace tpl}
 
+{template navelt}
+  <div><a href="{$link}">{$title}</a></div>{\n}
+{/template}
+
 {template root}
-  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">{\n}
-  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">{\n}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">{\n}
+<html xmlns="http://www.w3.org/1999/xhtml">{\n}
 
+<!-- HEAD -->
+<head>{\n}
+    <base href="http://www.botanical-lab.ru/"></base>{\n}
+    <title>{$headtitle}Botanical.LAB - Озеленение офисных интерьеров, уход за растениями</title>{\n}
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen, projection, print" />{\n}
+    <meta name="keywords" content="" />{\n}
+    <meta name="description" content="" />{\n}
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />{\n}
+    <meta name='yandex-verification' content='4dcde4873ccc4d62' />
 
-    <head>{\n}
-<base href="http://www.botanical-lab.ru/"></base>
-	  <title>{$headtitle}Главная - Botanical.LAB - Озеленение офисных интерьеров, уход за растениями</title>{\n}
-	  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />{\n}
-	  <meta name="description" content="" />
-	  <meta name="keywords"    content="" />
-	  <meta name='yandex-verification' content='4dcde4873ccc4d62' />
-      <link rel="stylesheet" type="text/css" media="screen" href="/css/style.css" />{\n}
-      <!--[if lt IE 9]>
+<!--[if lt IE 9]>
 			<script src="js/html5.js" type="text/javascript"></script>
 		<![endif]-->
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />{\n}
+<meta name="viewport" content="width=device-width" />{\n}
+
+<!-- js -->
+<script src="/js/jquery.js"></script>{\n}
+<script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script>
+<script>
 			!window.XMLHttpRequest && window.location.reload("ie6/ie6.html");
 			!window.jQuery && document.write('<script src="js/jquery-1.7.1.min.js"><\/script>');
-		</script>
+</script>
+<script src="/scripts/modernizr-2.5.3.js" type="text/javascript"></script>
 
-		<LINK rel="icon" href="favicon.ico" type="image/x-icon">
-		<LINK rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<!-- favicon -->
+<LINK rel="icon" href="favicon.ico" type="image/x-icon">
+<LINK rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
-<script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- styles -->
+<link href="/content/styles/global/global.css" rel="stylesheet" type="text/css" />{\n}
+<link href="/content/styles/global/font.css" rel="stylesheet" type="text/css" />{\n}
+<link href="/content/styles/theme/master.css" rel="stylesheet" type="text/css" />{\n}
+<link href="/content/styles/theme/pages.css" rel="stylesheet" type="text/css" />{\n}
 
-		<!--<LINK rel="icon" href="/favicon.ico" type="image/x-icon">
-		<LINK rel="shortcut icon" href="/favicon.ico" type="image/x-icon">-->
+</head>{\n}
 
-		<script type="text/javascript" src="js/main.js"></script>
-                <!--<script type="text/javascript" src="js/curvycorners.js"></script>-->
-                <link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox.css" media="screen, projection">
-    </head>{\n}
+<!-- BODY -->
+<body class="home">{\n}
+    <header id="header">{\n}
+        <div id="header-top">{\n}
+            <a class="botanic-logo" href="/img/logo.png"></a>{\n}
+            <nav id="nav-main">{\n}
+                <ul class="clearfix no-list">{\n}
+                  <li><a href="/about">About</a>{\n}
+                        <nav class="sub-nav about">{\n}
+                            <div class="up-arrow"></div>{\n}
+                            <ul class="clearfix no-list">{\n}
+                                <li><a href="/about">О нас</a>{\n}
+                                    <ul>{\n}
+                                        <li><a href="/about/about-company">О компании</a></li>{\n}
+                                        <li><a href="/about/about-clients">Наши клиенты</a></li>{\n}
+                                        <li><a href="/about/work">Как мы работаем:</a></li>{\n}
+                                    </ul>{\n}
+                                </li>{\n}
+                            </ul>{\n}
+                        </nav>{\n}
+                    </li>{\n}
+                  <li><a href="/galery">Gallery</a>{\n}
+                        <nav class="sub-nav galery">{\n}
+                            <div class="up-arrow"></div>{\n}
+                            <ul class="clearfix no-list">{\n}
+                                <li><a href="/galery">Галерея</a>{\n}
+                                    <ul>{\n}
+                                        <li><a href="/galery/inter">Оформление интерьеров</a></li>{\n}
+                                        <li><a href="/galery/drugie-inter">Другие клиенты</a></li>{\n}
+                                        <li><a href="/galery/city">Городское озеленение</a></li>{\n}
+                                        <li><a href="/galery/drugie-city">Другие клиенты</a></li>{\n}
+                                        <li><a href="/galery/landshaf">Ландшафтный дизайн</a></li>{\n}
+                                        <li><a href="/galery/drugie-landshaf">Другие клиенты</a></li>{\n}
+                                    </ul>{\n}
+                                </li>{\n}
+                            </ul>{\n}
+                        </nav>{\n}
+                    </li>{\n}
+                  <li><a href="/catal">Catalog</a>{\n}
+                        <nav class="sub-nav catal">{\n}
+                            <div class="up-arrow"></div>{\n}
+                            <ul class="clearfix no-list">{\n}
+                                <li><a href="/catal">Каталог</a>{\n}
+                                    <ul>{\n}
+                                        <li><a href="/catal/cat-r">Каталог растений</a></li>{\n}
+                                        <li><a href="/catal/cat-k">Каталог кашпо</a></li>{\n}
+                                        <li><a href="/catal/iskuss">Искусственные растения</a></li>{\n}
+                                    </ul>{\n}
+                                </li>{\n}
+                            </ul>{\n}
+                        </nav>{\n}
+                    </li>{\n}
+                  <li><a href="/serv-price">Service and prices</a>{\n}
+                        <nav class="sub-nav serv-price">{\n}
+                            <div class="up-arrow"></div>{\n}
+                            <ul class="clearfix no-list">{\n}
+                                <li><a href="/serv-price">Услуги и цены</a>{\n}
+                                    <ul>{\n}
+                                        <li><a href="/serv-price/ozelen-fitodiz">Озеленение и фитодизайн</a></li>{\n}
+                                        <li><a href="/serv-price/prof-uhod">Профессиональный уход за комнатными растениями</a></li>{\n}
+                                    </ul>{\n}
+                                </li>{\n}
+                                <li><a href="/content/service">Услуги</a>{\n}
+                                    <ul>{\n}
+                                        <li><a href="/service/ozelenenie">Озеленение</a></li>
+                                        <li><a href="/service/ozelenenie-offic">Озеленение офисов</a></li>
+                                        <li><a href="/service/city-ozelenenie">Городское озеленение</a></li>
+                                        <li><a href="/service/fitodiz">Фитодизайн</a></li>
+                                        <li><a href="/service/fitodiz-int">Фитодизайн интерьера</a></li>
+                                        <li><a href="/service/fitodiz-offic">Цветы для офиса</a></li>
+                                        <li><a href="/service/rastenie-offic">Растения для офиса</a></li>
+                                        <li><a href="/service/oforml-int">Оформление интерьеров</a></li>
+                                        <li><a href="/service/oforml-offic">Оформление офиса, бизнес-центра</a></li>
+                                        <li><a href="/service/oforml-cafe">Оформление кафе, ресторанов</a></li>
+                                        <li><a href="/service/oforml-hotel">Оформление гостиниц, мини-отелей</a></li>
+                                        <li><a href="/service/oforml-spa">Оформление салона красоты, spa-cалона, фитнес-центра</a></li>
+                                        <li><a href="/service/oforml-shop">Оформление торговых-центров, магазинов</a></li>
+                                        <li><a href="/service/oforml-car">Оформление автосалонов</a></li>
+                                        <li><a href="/service/zimsad">Зимний сад</a></li>
+                                        <li><a href="/service/zimsad-cottadge">Зимний сад коттеджа</a></li>
+                                        <li><a href="/service/dizint-zimsad">Дизайн интерьера зимнего сада</a></li>
+                                        <li><a href="/service/rastenie-zimsad">Растения для зимнего сада</a></li>
+                                        <li><a href="/service/kompoz-flower">Композиции из цветов</a></li>
+                                        <li><a href="/service/NY">Новогоднее оформление офиса</a></li>
+                                        <li><a href="/service/landshafdiz">Ландшафтный дизайн</a></li>
+                                        <li><a href="/service/landshafdiz-city">Ландшафтный дизайн в городе</a></li>
+                                        <li><a href="/service/landshafdiz-village">Ландшафтный дизайн за городом</a></li>
+                                        <li><a href="/service/uhod-room-flower">Уход за комнатными растениями</a></li>
+                                        <li><a href="/service/fitoenergy">Фитоэнергетика</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                    </li>
+                  <li><a href="/contacts">Contacts</a>
+                        <nav class="sub-nav contacts">
+                            <div class="up-arrow"></div>
+                            <ul class="clearfix no-list">
+                                <li><a href="/contacts">Контакты</a>
+                                    <ul>
+                                        <li><a href="/contacts/telephon">Телефоны компании</a></li>
+                                        <li><a href="/contacts/zakaz">Заказ на растения по Санкт-Петербургу</a></li>
+                </ul>
+            </nav>
+        </div>
 
+<section class="feature">
+    <div id="banner">
+        <div data-order="1" style="background: url(/botanic/img/headerbg.jpg) no-repeat center top;">
+            <div class="banner-copy">
+                <img src="/botanic/img/headerbg.jpg" width="116" height="37" />
+                <span><b>Нет ничего более изобретательного</b>,</span><br />
+                <span><b>чем природа</b></span><br />
+                <span><b>Цицерон</b></span><br />
+                <a href="/about/about-company" class="btn btn-lge">Читать больше</a>
+            </div>
+        </div>
+    </div>
+</section>
 
-    <body id="top">{\n}
+<section id="galery" class="grey-level-3"><div>
+    <h2><a href="/galery/inter">Галерея</a></h2>
+    <ul class="clearfix no-list">
+        <li><a href="/galery/inter">
+            <img src="/botanic/img/IMG_2141s.JPG" width="140" height="140" alt="" />
+            <div><h5>Офис компании VTS</h5></div>
+        </a></li>
+        <li><a href="/galery/inter">
+            <img src="/botanic/img/IMG_2165s.jpg" width="140" height="140" alt="" />
+            <div><h5>Частная квартира на ул. Б. Конюшенная</h5></div>
+        </a></li>
+        <li><a href="/galery/inter">
+            <img src="/botanic/img/IMG_2401s.jpg" width="140" height="140" alt="" />
+            <div><h5>Офис компании Марва-трейд</h5></div>
+        </a></li>
+        <li><a href="/galery/city">
+            <img src="/botanic/img/ap1.jpg" width="140" height="140" alt="" />
+            <div><h5>Уличное озеленение</h5></div>
+        </a></li>
+        <li><a href="/galery/city">
+            <img src="/botanic/img/IMG_2422s.jpg" width="140" height="140" alt="" />
+            <div><h5>Офис компании Аванпост</h5></div>
+        </a></li>
+    </ul>
+</div></section>
 
-      <div class = "wrapper">{\n}
-			<div class = "maincontent">{\n}
-				<div class = "container">{\n}
+<section id="echo-platform" class="grey-level-5"><div>
+    <div>
+        <h2><a href="/content/news.htm">Новости!</a></h2>
+        <p>Свежие новости о деятельности нашей компании.</p>
+    </div>
+    <ul class="no-list">
+        <li><a href="/content/intel.htm">"Botanical.LAB"<br />"Intel"</a></li>
+        <li><a href="/content/raduga.htm">"Botanical.LAB"<br />"Радуга"</a></li>
+        <li><a href="/content/umo-konsalt.htm">"Botanical.LAB"<br />"ЮМО-консалт"</a></li>
+    </ul>
+</div></section>
 
+<!-- section articles -->
+<section class="pre-footer grey-level-2"><div>
+            <div class="articles">
+            </div>
+            <div class="articles">
+                            <h2>Статьи</h2>
+        <ul class="clearfix no-list articles-list">
+<li class="clearfix">
+    <img src="/botanic/img/gif/grin1.gif" width="60" height="60" />
+    <h5><a href="/content/articles.htm">Все статьи</a></h5>
+    <a class="btn btn-grey btn-sml" href="/content/vibor-offic">Какие растения выбрать для офиса?</a>
+</li><li class="clearfix">
+    <img src="/botanic/img/gif/grin2.gif" width="60" height="60" />
+    <a class="btn btn-grey btn-sml" href="/content/dom-offic">Почему для дома и работы мы выбираем разные растения?</a>
+</li><li class="clearfix">
+    <img src="/botanic/img/gif/grin3.gif" width="60" height="60" />
+    <a class="btn btn-grey btn-sml" href="/content/spasti-offic">Комнатные растения спасут офисных работников...</a>
+</li>        </ul>
+</ul>
+            </div>
+                </div>
+            </div>
+        </div></section>
 
-      <div class="header">{\n}
-        <p style="font-size:27px;" style="margin-top: 40px">{\n}
-          <br/>{\n}
-          <br/>{\n}
-          Botanical.LAB{\n}
-          </p>{\n}
-        <header role = "banner">{\n}
-			<div class='telephone'>{\n}
-				<span>+7 (921) 432-47-55</span>{\n}
-				<a href='#'>info@botanical-lab.ru</a>{\n}
-			</div>{\n}
-			<div class='logo'>{\n}
-				<a href='/' class="logo_img">{\n}
-				<img src='img/logo.png' alt='Botanical.LAB'>{\n}
-				</a>{\n}
-				<a href="/">{\n}
-                  <span class="logo_text">Botanical.<span style="color: #5c8e00">LAB</span></span>{\n}
-				</a>{\n}
-			</div>{\n}
-
-        <div class="navigation">{\n}
-        /*<nav role = "navigation">*/
-/*основное меню*/
-       <ul><a href="/">Главная</a>{\n}
-       <li><a href="/about.html" title="О нас" >О нас</a></li>{\n}
-       <li><a href="/galery.html" title="Галерея" >Галерея</a></li>{\n}
-/*пункт меню "Каталог"*/
-       <li><a href="/catalog" title="Каталог" >Каталог</a></li>{\n}
-/*подпункты меню "каталог"*/
-<ul><li><a href="/catalog-r.html" title="Каталог растений" >Каталог растений</a></li>{\n}
-       <li><a href="/catalog-k.html" title="Каталог кашпо" >Каталог кашпо</a></li>{\n}
-       <li><a href="/iskusstv-r.html" title="Искусственные растения" >Искусственные растения</a></li>{\n}
-</ul></li>
-/*пункт меню "Услуги и цены"*/
-       <li><a href="/serv-price-htm" title="Услуги и цены" >Услуги и цены</a></li>{\n}
-/*подпункты меню "Услуги и цены"*/
-   <ul><li><a href="/ozelenenie.html" title="Озеленение" >Озеленение</a></li>{\n}
-       <li><a href="/fitodiz.html" title="Фитодизайн" >Фитодизайн</a></li>{\n}
-       <li><a href="/oforml-int.html" title="Оформление интерьеров" >Оформление интерьеров</a></li>{\n}
-       <li><a href="/zim-sad.html" title="Зимний сад" >Зимний сад</a></li>{\n}
-       <li><a href="/kompoz-flower.html" title="Композиции из цветов" >Композиции из цветов</a></li>{\n}
-       <li><a href="/NY.html" title="Новогоднее оформление офиса" >Новогоднее оформление офиса</a></li>{\n}
-       <li><a href="/landshaf-diz.html" title="Ландшафтный дизайн" >Ландшафтный дизайн</a></li>{\n}
-       <li><a href="/uhod-room-flower.html" title="Уход за комнатными растениями" >Уход за комнатными растениями</a></li>{\n}
-       <li><a href="/fito-energy.html" title="Фитоэнергетика" >Фитоэнергетика</a></li>{\n}
-/*пункт меню "Контакты, Новости"*/
-       <li><a href="/contacts">Контакты</a>{\n}
-       <li><a href="/news">Новости</a>{\n}
-          <div class="clearer"><span></span></div>{\n}
-        </div>{\n}
-
-/*карта сайта, домой, написать письмо*/
-       <div class='map'>{\n}
-							<ul>{\n}
-								<li><a href="/"><img src="img/home.gif" alt="" /></a></li>{\n}
-								<li><a href="mailto:info@botanical-lab.ru"><img src="img/mail.gif" alt="" /></a></li>{\n}
-								<li><a href="sitemap.html"><img src="img/map.gif" alt="" /></a></li>{\n}
-							</ul>{\n}
-						</div>{\n}
-					</header>{\n}
-
-      </div>{\n}
-
-<article class = "content" role = "main">{\n}
-						<aside role="complementary" class='clearfix'>{\n}
-/*левая колонка: содержание услуг*/
-							<div class='left_col'>{\n}
-								<div class ="text">{\n}
-									<h2>Услуги</h2>{\n}
-<ul class="menu_left">{\n}
-<li><a href="/ozelenenie.html" title="Озеленение" >Озеленение</a>{\n}
-<li><a href="/ozelen-offic.txt" title="Озеленение офисов" >Озеленение офисов</a></li>{\n}
-<li><a href="/ozelen-city.txt" title="Городское озеленение" >Городское озеленение</a></li>{\n}
-</li>{\n}
-
-<li><a href="/fitodiz.html" title="Фитодизайн" >Фитодизайн</a>{\n}
-<li><a href="/fitodiz-int.txt" title="Фитодизайн интерьера" >Фитодизайн интерьера</a></li>{\n}
-<li><a href="/flower-offic.txt" title="Цветы для офиса" >Цветы для офиса</a></li>{\n}
-<li><a href="/rastenie-offic.txt" title="Растения для офиса" >Растения для офиса</a></li>{\n}
-</li>{\n}
-
-<li><a href="/oforml-int.html" title="Оформление интерьеров" >Оформление интерьеров</a>{\n}
-<li><a href="/offic-bizness.txt" title="Оформление офиса, бизнес-центра" >Оформление офиса, бизнес-центра</a></li>{\n}
-<li><a href="/cafe-restor.txt" title="Оформление кафе, ресторанов" >Оформление кафе, ресторанов</a></li>{\n}
-<li><a href="/hotel.txt" title="Оформление гостиниц, мини-отелей" >Оформление гостиниц, мини-отелей</a></li>{\n}
-<li><a href="/spa-fitness.txt" title="Оформление салона красоты, spa-cалона, фитнес-центра" >Оформление салона красоты, spa-cалона, фитнес-центра</a></li>{\n}
-<li><a href="/shop.txt" title="Оформление торговых-центров, магазинов" >Оформление торговых-центров, магазинов</a></li>{\n}
-<li><a href="/avto.txt" title="Оформление автосалонов" >Оформление автосалонов</a></li>{\n}
-</li>{\n}
-
-<li><a href="/zim-sad.html" title="Зимний сад" >Зимний сад</a>{\n}
-<li><a href="/cottedge.txt" title="Зимний сад коттеджа" >Зимний сад коттеджа</a></li>{\n}
-<li><a href="/diz-zim.txt" title="Дизайн интерьера зимнего сада" >Дизайн интерьера зимнего сада</a></li>{\n}
-<li><a href="/rastenie-zim.txt" title="Растения для зимнего сада" >Растения для зимнего сада</a></li>{\n}
-</li>{\n}
-
-<li><a href="/kompoz-flower.html" title="Композиции из цветов" >Композиции из цветов</a></li>{\n}
-
-<li><a href="/NY.html" title="Новогоднее оформление офиса" >Новогоднее оформление офиса</a></li>{\n}
-
-<li><a href="/landshaf-diz.html" title="Ландшафтный дизайн" >Ландшафтный дизайн</a>{\n}
-<li><a href="/landdiz-city.txt" title="Ландшафтный дизайн в городе" >Ландшафтный дизайн в городе</a></li>{\n}
-<li><a href="/landdiz-village.txt" title="Ландшафтный дизайн за городом" >Ландшафтный дизайн за городом</a></li>{\n}
-</li>{\n}
-
-<li><a href="/uhod-room-flower.txt" title="Уход за комнатными растениями" >Уход за комнатными растениями</a></li>{\n}
-
-<li><a href="/fito-energy.txt" title="Фитоэнергетика" >Фитоэнергетика</a></li>{\n}
-</ul>{\n}
-								</div>{\n}
-							</div>{\n}
-
-      <div class="container">{\n}
-        <div class="content">{\n}
-          {$content | noAutoescape}{\n}{\n}
-        </div>{\n}
-
-
-<!-- правая колонка: акции -->
-
-        <div class="layout_clearfix">{\n}
-				<div class="clearfix_cent">{\n}
-				<div class='right_col'>{\n}
-				<div class='akcii'>{\n}
-						<h2>Акции</h2>{\n}
-                        <a href='akcii.html'><img src="img/promo.png" alt=""></a>{\n}
+{\n}
+<!-- FOOTER HERE -->{\n}
+		<footer role = "contentinfo">{\n}
+			<div class = "container">{\n}
+				<div class='copyright'>{\n}
+					<p class="copyrights">© Все права защищены. Санкт-Петербург.&nbsp; 2010</p>{\n}
+					<p class="organization_name">Botanical.LAB<p/>{\n}
+					<p class="organization_phone">+7 (921) 432-47-55<p/>{\n}
+					<a href='mailto:info@botanical-lab.ru' class="organization_male">info@botanical-lab.ru</a>{\n}
 				</div>{\n}
-			 </div>{\n}
-		   </div>{\n}
-
-<!-- оформление главной страницы -->
-            <div class='center_col'>{\n}
-		      <h1>Красота вокруг нас ...</h1>{\n}
-				<ul>{\n}
-				<li>{\n}
-
-<!-- анонс статьи: уход за комнатными растениями на главной странице -->
-                 <a href="/uhod-room-flower.html">{\n}
-					<h6>Уход за комнатными растениями</h6>{\n}
-				 </a>{\n}
-            <div class ="catalog_img">{\n}
-			  <a href="/uhod-room-flower.html">{\n}
-				<img src="img/uhod.jpg" alt="">{\n}							</a>{\n}
-			</div>{\n}
-            <div class ="catalog_text">{\n}
-			<p>Услуга по УХОДУ за комнатными РАСТЕНИЯМИ очень востребована на Западе и все больше, и больше она становится, востребована и у нас. ПОЧЕМУ профессиональный уход за комнатными растениями становиться так популярен?</p>{\n}
-			  <a href="/uhod-room-flower.html" class="details">подробнее</a>{\n}
-			</div>{\n}
-          </li>{\n}
-
-<!-- анонс статьи: композиции из цветов -->
-                <li>{\n}
-				<a href="/kompoz-flower.html">{\n}
-				  <h6>Композиции из цветов</h6>{\n}
-				</a>{\n}
-			<div class ="catalog_img">{\n}
-			  <a href="/kompoz-flower.html">{\n}
-			  <img src="img/kompoz.jpg" alt="">{\n}						 </a>{\n}
-			</div>{\n}
-			<div class ="catalog_text">{\n}
-		    <p>КАК ОРИГИНАЛЬНО оформить интерьер офиса или дома? КАКОЙ НЕОБЫЧНЫЙ ПОДАРОК преподнести близким или друзьям? КАКОЙ БИЗНЕС-ПОДАРОК выбрать партнеру или коллеге по работе? КОМПОЗИЦИИ из комнатных растений и цветов – это именно то, что Вы искали!!!</p>{\n}
-			  <a href="/kompoz-flower.html" class="details">подробнее</a>{\n}
-			</div>{\n}
-          </li>{\n}
-
-<!-- анонс статьи: зимний сад -->
-                <li>{\n}
-				<a href="/zim-sad.html">{\n}
-       				<h6>Зимний сад</h6>{\n}
-				</a>{\n}
-			<div class ="catalog_img">{\n}
-			    <a href="/zim-sad.html">{\n}
-				  <img src="img/sad.jpg" alt="">{\n}						               </a>{\n}
-			</div>{\n}
-			<div class ="catalog_text">{\n}
-			<p>ЗИМНИЙ САД – это «полудом-полусад», место для уединенного ОТДЫХА в окружении растений, цветов и воды. Переступая порог ЗИМНЕГО САДА, уносишься за тысячу километров от повседневности. Это ДРУГОЙ МИР! Здесь ЛЕТО круглый год. Это РАЙ ДЛЯ ОТДЫХА и для влюбленных в растения!</p>{\n}
-				<a href="/zim-sad.html" class="details">подробнее</a>{\n}
-			</div>{\n}
-          </li>{\n}
-
-<!-- анонс статьи: фитодизайн -->
-                <li>{\n}
-                  <a href="/fitodiz.html">{\n}
-					<h6>Фитодизайн</h6>{\n}
-				  </a>{\n}
-				<div class ="catalog_img">{\n}
-				  <a href="/fitodiz.html">{\n}
-				    <img src="img/fitodiz.jpg" alt="">{\n}
-			      </a>{\n}
-				</div>{\n}
-				<div class ="catalog_text">{\n}
-				<p>Помещения такие же разные, как и их владельцы - где-то больше света, где-то меньше, где-то сухой воздух, а где-то всегда открыто окно... И чтобы растения чувствовали себя комфортно и ваши деньги не были потрачены зря ОБРАЩАЙТЕСЬ за консультацией к ПРОФЕССИОНАЛАМ.</p>{\n}
-				  <a href="/fitodiz.html" class="details">подробнее</a>{\n}
-				</div>{\n}
-              </li>{\n}
-            </ul>{\n}
-            </div>{\n}
-          </div>{\n}
-
-<!-- блок - статьи -->
-                <div class='statii'>{\n}
-				  <h2>Статьи</h2>{\n}
-				<div class='statii_bg'>{\n}
-				  <ul>{\n}
-				    <li>{\n}
-					 <a href='/articles-kakie-rasteniya-vybrat-dlya-ofisa.html'>Какие растения выбрать для офиса?</a>{\n}
-					 <a href="/articles-kakie-rasteniya-vybrat-dlya-ofisa.html" class='more'>подробнее &raquo;</a>{\n}
-					</li>{\n}											              <li>{\n}
-					<a href='/articles-vybor-rasteniy-dlya-doma-i-ofisa.html'>Почему для дома и работы мы выбираем разные растения?</a>{\n}
-					<a href="/articles-vybor-rasteniy-dlya-doma-i-ofisa.html" class='more'>подробнее &raquo;</a>{\n}
-					</li>{\n}											              <li>{\n}
-					<a href='/articles-komnatnye-rasteniya-spasut-ofisnyh-rabotnikov.html'>Комнатные растения спасут офисных работников</a>{\n}
-					<a href="/articles-komnatnye-rasteniya-spasut-ofisnyh-rabotnikov.html" class='more'>подробнее &raquo;</a>{\n}
-					</li>{\n}											              <li>{\n}
-					<a href='/articles-tehnicheskie-harakteristiki-zimnih-sadov.html'>Технические характеристики зимних садов</a>{\n}
-					<a href="/articles-tehnicheskie-harakteristiki-zimnih-sadov.html" class='more'>подробнее &raquo;</a>{\n}
-					</li>{\n}
-				</ul>{\n}
-				<a href='articles.html' class='vse_statii'>все статьи &raquo;</a>{\n}
-				</div>{\n}
-			</div>{\n}
-		</div>{\n}
-	</aside>{\n}
-
-<!-- блок - самые популярные растения -->
-
-                <div class="bottom_images">{\n}
-				  <div class="bottom_name">самые популярные растения</div>{\n}
-				    <ul class="bottom_photos">{\n}
-					<li>{\n}
-					<a rel="most-popular" class="bottom_images_fancy" href="img/aglonema silver.jpg"><img src="img/aglonema silver.jpg" alt="Аглаонема Сильвер Квин" style="width:90px; height:auto;"></a>{\n}
-					<p class="bottom_item_name">Аглаонема Сильвер Квин</p>{\n}
-					</li>{\n}
-					<li>{\n}
-					<a rel="most-popular" class="bottom_images_fancy" href="img/sansevieria_black_coral.jpg"><img src="img/sansevieria_black_coral.jpg" alt="Сансевиерия Блек Коралл" style="width:90px; height:auto;"></a>{\n}
-					<p class="bottom_item_name">Сансевиерия Блек Коралл</p>{\n}
-					</li>{\n}
-					<li>{\n}
-					<a rel="most-popular" class="bottom_images_fancy" href="img/cvetydlyofisa01.jpg"><img src="img/cvetydlyofisa01.jpg" alt="Спатифиллум" style="width:90px; height:auto;"></a>{\n}
-					<p class="bottom_item_name">Спатифиллум</p>{\n}
-					</li>{\n}
-					<li>{\n}
-					<a rel="most-popular" class="bottom_images_fancy" href="img/anturium1.jpeg"><img src="img/anturium1.jpeg" alt="Антуриум" style="width:90px; height:auto;"></a>{\n}
-					<p class="bottom_item_name">Антуриум</p>{\n}
-					</li>{\n}
-					<li>{\n}
-					<a rel="most-popular" class="bottom_images_fancy" href="img/howea1.jpg"><img src="img/howea1.jpg" alt="Ховея" style="width:90px; height:auto;"></a>{\n}
-					<p class="bottom_item_name">Ховея</p>{\n}
-					</li>{\n}
-				</ul>{\n}
-			</div>{\n}
-		</article>{\n}
-	</div>{\n}
-</div>{\n}
-<div class = "empty"></div>{\n}
-		</div>{\n}
-
-<!-- FOOTER HERE -->
-<div class="footer">{\n}
-<footer role = "contentinfo">{\n}
-  <div class = "container">{\n}
-	<div class='copyright'>{\n}
-		<p class="copyrights">© Все права защищены. Санкт-Петербург.&nbsp; 2010</p>{\n}
-		<p class="organization_name">Botanical.LAB<p/>{\n}
-		<p class="organization_phone">+7 (921) 432-47-55<p/>{\n}
-		  <a href='mailto:info@botanical-lab.ru' class="organization_male">info@botanical-lab.ru</a>{\n}
-	</div>{\n}
-	<div class='liveinternet'>{\n}
+				<div class='liveinternet'>{\n}
 <!--LiveInternet counter--><script type="text/javascript">document.write("<a href='http://www.liveinternet.ru/click' target=_blank><img src='//counter.yadro.ru/hit?t17.15;r" + escape(document.referrer) + ((typeof(screen)=="undefined")?"":";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?screen.colorDepth:screen.pixelDepth)) + ";u" + escape(document.URL) + ";" + Math.random() + "' border=0 width=88 height=31 alt='' title='LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня'><\/a>")</script><!--/LiveInternet-->{\n}
-	</div>{\n}
-</div>{\n}
-</footer>{\n}
-</div>{\n}
+				</div>{\n}
+			</div>{\n}
+	  	</footer>{\n}
+	  <!-- THANKS FOR YOU ATTENTION -->{\n}
 
-        </body>{\n}
-  </html>{\n}
+
+<div style="display: none; text-align: center; font-size: 14px; color: #333; padding: 10px 0px;">Dev 1.0.4643.23690</div>{\n}
+
+    <script src="/Scripts/jquery-1.7.2.js" type="text/javascript"></script>{\n}
+
+    <script src="/Scripts/knockout-2.1.0.js" type="text/javascript"></script>{\n}
+
+
+    <script src="/Scripts/jquery.validate.js" type="text/javascript"></script>{\n}
+
+    <script src="/Scripts/jquery.validate.unobtrusive.js" type="text/javascript"></script>{\n}
+
+
+    <script src="/Scripts/jquery.timeago.js" type="text/javascript"></script>{\n}
+
+    <script src="/Scripts/jquery.dotdotdot-1.5.1.js" type="text/javascript"></script>{\n}
+
+
+    <script src="/Scripts/Pages/global.js" type="text/javascript"></script>{\n}
+
+
+    <script src="/Scripts/Pages/home.js" type="text/javascript"></script>{\n}
+
+</body>{\n}
+</html>{\n}
+
 {/template}
 
