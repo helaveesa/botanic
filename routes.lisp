@@ -4,7 +4,7 @@
 ;; 404
 
 (defun page-404 (&optional (title "404 Not Found") (content "Страница не найдена"))
-  "404")
+  "404:  извините,страница, которую Вы запросили, не находится в нашей базе данных. Скорее всего вы попали на битую ссылку или опечатались при вводе URL")
 
 (restas:define-route not-found-route ("*any")
   (restas:abort-route-handler
@@ -33,26 +33,11 @@
        ,@body)))
 
 
-(def/route contacts ("contacts")
-  (old-page "content/contacts.htm"))
-
-(def/route news ("news")
-  (old-page "content/news.htm"))
-
 (def/route about ("about")
   (old-page "content/about.htm"))
 
-(def/route galery ("galery")
-  (old-page "content/galery.htm"))
-
-(def/route index ("index")
-  (old-page "content/index.htm"))
-
-(def/route catalog ("catalog")
-  (old-page "content/catalog.htm"))
-
-(def/route service_and_price ("serv-price")
-  (old-page "content/serv-price.htm"))
+(def/route contacts ("contacts")
+  (old-page "content/contacts.htm"))
 
 
 ;; submodules
