@@ -151,12 +151,6 @@ a.btn-more:after {
   margin-left: 7px;
   margin-top: -1px; }
 
-.search-box {
-  width: 220px;
-  height: 30px;
-  background-color: #006699; \\темно-зеленый\\
-  display: none; }
-
 #latest-news article time {
   display: block; }
 #latest-news article a {
@@ -380,7 +374,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
   position: relative;
   z-index: 2; }
   #header > div {
-    background: #19b9f3; } \\зеленый\\
+    background: #34c924; }
   #header .echo-logo {
     position: relative;
     top: -6px; }
@@ -527,8 +521,6 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
   #nav-aside a {
     margin-left: 15px;
     color: white; }
-  #nav-aside a:hover {
-    color: #006699; } \\темно-зеленый\\
   #nav-aside a:first-child {
     margin-left: 0px; }
 
@@ -540,7 +532,6 @@ body > nav {
   position: absolute;
   top: 138px;
   width: 100%;
-  background-color: #006699; \\чуть-темно-зеленый\\
   color: #ffffff; }
   body > nav > div {
     width: 940px;
