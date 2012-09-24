@@ -18,7 +18,14 @@
     (:link "/prof-uhod/" :title "Профессиональный-уход-за-комнатными-растениями")
     (:link "/contacts" :title "Конакты")
     (:link "/telephon" :title "Телефоны-компании-Botanical.LAB-в-Санкт-Петербурге")
-    (:link "/zakaz" :title "Заказ-на-растения-только-по-Санкт-Петербургу")))
+    (:link "/zakaz" :title "ЗАКАЗ на РАСТЕНИЯ только по Санкт-Петербургу")
+    (:link "/news" :title "Новости")
+    (:link "/akcii" :title "Акции")
+    (:link "/mapsite" :title "Карта сайта")))
+
+
+
+
 
 ;; start
 (restas:start '#:botanic :port 2000)
