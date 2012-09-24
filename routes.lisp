@@ -36,9 +36,185 @@
 (def/route about ("about")
   (old-page "content/about.htm"))
 
+(def/route about2 ("about_company")
+  (old-page "content/about-company.htm"))
+
+(def/route about3 ("about_clients")
+  (old-page "content/about-clients.htm"))
+
+(def/route about4 ("work")
+  (old-page "content/work.htm"))
+
+(def/route galery ("galery")
+  (old-page "content/galery.htm"))
+
+(def/route galery2 ("city")
+  (old-page "content/city.htm"))
+
+(def/route galery3 ("drugie_city")
+  (old-page "content/drugie-city.htm"))
+
+(def/route galery4 ("inter")
+  (old-page "content/inter.htm"))
+
+(def/route galery5 ("drugie_inter")
+  (old-page "content/drugie-inter.htm"))
+
+(def/route galery6 ("landshaf")
+  (old-page "content/landshaf.htm"))
+
+(def/route galery7 ("drugie_landshaf")
+  (old-page "content/drugie-landshaf.htm"))
+
+(def/route catalog ("catal")
+  (old-page "catalog/catal.htm"))
+
+(def/route catalog2 ("catr")
+  (old-page "catalog/catr.htm"))
+
+(def/route catalog3 ("catk")
+  (old-page "catalog/catk.htm"))
+
+(def/route catalog4 ("iskuss")
+  (old-page "catalog/iskuss.htm"))
+
+(def/route serv-price ("ozelen_fitodiz")
+  (old-page "content/ozelen-fitodiz.htm"))
+
+(def/route serv-price2 ("prof_uhod")
+  (old-page "content/prof-uhod.htm"))
+
+(def/route service ("service")
+  (old-page "content/service.htm"))
+
+(def/route service2 ("ozelenenie")
+  (old-page "content/ozelenenie.htm"))
+
+(def/route service21 ("ozelenenie_offic")
+  (old-page "content/ozelenenie-offic.htm"))
+
+(def/route service22 ("city_ozelenenie")
+  (old-page "content/city-ozelenenie.htm"))
+
+(def/route service3 ("fitodiz")
+  (old-page "content/fitodiz.htm"))
+
+(def/route service31 ("fitodiz_int")
+  (old-page "content/fitodiz-int.htm"))
+
+(def/route service32 ("flower_offic")
+  (old-page "content/flower-offic.htm"))
+
+(def/route service33 ("rastenie_offic")
+  (old-page "content/rastenie-offic.htm"))
+
+(def/route service4 ("oforml_int")
+  (old-page "content/oforml-int.htm"))
+
+(def/route service41 ("oforml_offic")
+  (old-page "content/oforml-offic.htm"))
+
+(def/route service42 ("oforml_cafe")
+  (old-page "content/oforml-cafe.htm"))
+
+(def/route service43 ("oforml_hotel")
+  (old-page "content/oforml-hotel.htm"))
+
+(def/route service44 ("oforml_spa")
+  (old-page "content/oforml-spa.htm"))
+
+(def/route service45 ("oforml_shop")
+  (old-page "content/oforml-shop.htm"))
+
+(def/route service46 ("oforml_car")
+  (old-page "content/oforml-car.htm"))
+
+(def/route service5 ("zimsad")
+  (old-page "content/zimsad.htm"))
+
+(def/route service51 ("zimsad_cottadge")
+  (old-page "content/zimsad-cottadge.htm"))
+
+(def/route service52 ("dizint_zimsad")
+  (old-page "content/dizint-zimsad.htm"))
+
+(def/route service53 ("rastenie_zimsad")
+  (old-page "content/rastenie-zimsad.htm"))
+
+(def/route service6 ("kompoz_flower")
+  (old-page "content/kompoz-flower.htm"))
+
+(def/route service7 ("NY")
+  (old-page "content/NY.htm"))
+
+(def/route service8 ("landshafdiz")
+  (old-page "content/landshafdiz.htm"))
+
+(def/route service81 ("landshaf_city")
+  (old-page "content/landshaf-city.htm"))
+
+(def/route service82 ("landshaf_village")
+  (old-page "content/landshaf-village.htm"))
+
+(def/route service9 ("uhod_room_flower")
+  (old-page "content/uhod-room-flower.htm"))
+
+(def/route service10 ("fitoenergy")
+  (old-page "content/fitoenergy.htm"))
+
 (def/route contacts ("contacts")
   (old-page "content/contacts.htm"))
 
+(def/route contacts2 ("telephon")
+  (old-page "content/telephon.htm"))
+
+(def/route contacts3 ("zakaz")
+  (old-page "content/zakaz.htm"))
+
+(def/route akcii ("akcii")
+  (old-page "content/akcii.htm"))
+
+(def/route mapsite ("mapsite")
+  (old-page "content/mapsite.htm"))
+
+(def/route news ("news")
+  (old-page "content/news.htm"))
+
+(def/route news2 ("intel")
+  (old-page "content/intel.htm"))
+
+(def/route news3 ("raduga")
+  (old-page "content/raduga.htm"))
+
+(def/route news4 ("umo_konsalt")
+  (old-page "content/umo-konsalt.htm"))
+
+(def/route news5 ("optek")
+  (old-page "content/optek.htm"))
+
+(def/route articles ("articles")
+  (old-page "content/articles.htm"))
+
+(def/route articles2 ("emkosti")
+  (old-page "content/emkosti.htm"))
+
+(def/route articles3 ("teory")
+  (old-page "content/teory.htm"))
+
+(def/route articles4 ("history_zimsad")
+  (old-page "content/history-zimsad.htm"))
+
+(def/route articles5 ("tehnich_har")
+  (old-page "content/tehnich-har.htm"))
+
+(def/route articles6 ("spasti_offic")
+  (old-page "content/spasti-offic.htm"))
+
+(def/route articles7 ("dom_offic")
+  (old-page "content/dom-offic.htm"))
+
+(def/route articles8 ("vibor_offic")
+  (old-page "content/vibor-offic.htm"))
 
 ;; submodules
 
