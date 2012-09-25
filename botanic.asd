@@ -13,6 +13,7 @@
                  #:postmodern)
   :serial       t
   :components   ((:static-file "templates.htm")
+                 (:static-file "templates2.htm")
                  (:file "defmodule")
                  (:file "render")
                  (:file "routes")

@@ -37,5 +37,5 @@
 (defun path (relative)
   (merge-pathnames relative *basedir*))
 
-(closure-template:compile-template :common-lisp-backend (path "templates.htm"))
+(closure-template:compile-template :common-lisp-backend (path "templates.htm")(path "templates2.htm"))
 
