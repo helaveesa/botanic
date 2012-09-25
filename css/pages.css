@@ -67,7 +67,7 @@ body.home #header #breadcrumbs {
 body.home section.feature #banner {
   padding: 0px;
   width: auto; }
-  body.home section.feature #banner > div {
+body.home section.feature #banner > div {
     height: 500px; }
 body.home #stream-counter > div {
   padding-bottom: 20px; }
@@ -93,7 +93,7 @@ body.home #industry-solutions li {
   position: relative;
   margin-right: 20px;
   overflow: hidden; }
-  body.home #industry-solutions li a > div {
+body.home #industry-solutions li a > div {
     position: absolute;
     top: 118px;
     height: 140px;
@@ -165,7 +165,7 @@ body.home #article-amc > div {
   background: url("/botanic/img/IMG_2405s.jpg") no-repeat left 60px; }
 
 /**
-	ABOUT US /AboutEcho
+	ABOUT US /About botanic
 **/
 body.about-us section.feature {
   background-color: #d3f9a9; }
