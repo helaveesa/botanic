@@ -27,12 +27,12 @@ body {
   line-height: 1.4; }
 
 ::-moz-selection {
-  background: #19B9F3; //зеленыйй//
+  background: #34C924;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #19B9F3;
+  background: #34C924;
   color: #fff;
   text-shadow: none; }
 
@@ -68,7 +68,7 @@ ins {
   text-decoration: none; }
 
 mark {
-  background: #ff0;//зеленый//
+  background: #ceff00;
   color: #000;
   font-style: italic;
   font-weight: bold; }
@@ -188,7 +188,7 @@ textarea {
   resize: vertical; }
 
 input:invalid, textarea:invalid {
-  background-color: #f0dddd; } //нежно-зеленый//
+  background-color: #efefdc; }
 
 table {
   border-collapse: collapse;
