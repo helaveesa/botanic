@@ -24,9 +24,6 @@
     (:link "/mapsite" :title "Карта сайта")))
 
 
-
-
-
 ;; start
 (restas:start '#:botanic :port 2000)
 (restas:debug-mode-on)

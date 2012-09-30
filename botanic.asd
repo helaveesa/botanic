@@ -13,9 +13,9 @@
                  #:postmodern)
   :serial       t
   :components   ((:static-file "templates.htm")
-                 (:static-file2 "templates_service.htm")
-                 (:static-file3 "templates_galery.htm")
-                 (:static-file4 "templates_nextpage.htm")
+                 (:static-file "templates_service.htm")
+                 (:static-file "templates_galery.htm")
+                 (:static-file "templates_nextpage.htm")
                  (:file "defmodule")
                  (:file "render")
                  (:file "routes")
