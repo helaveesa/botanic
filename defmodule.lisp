@@ -43,5 +43,3 @@
 (closure-template:compile-template :common-lisp-backend (path "templates_nextpage.htm"))
 
 
-(tpl:navelt (list :link 1 :title (tpl:navelt (list :link 1 :title 2))))
-

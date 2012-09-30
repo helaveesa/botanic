@@ -216,6 +216,10 @@
 (def/route articles8 ("vibor_offic")
   (old-page "content/vibor-offic.htm"))
 
+(def/route ttt ("ttt")
+  (list 1 2 3 "WEfwefewf" "qefqwef"))
+
+
 ;; submodules
 
 (restas:mount-submodule -css- (#:restas.directory-publisher)
