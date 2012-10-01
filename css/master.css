@@ -30,11 +30,11 @@ a, button {
   -o-transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s;
   transition: color 150ms ease-in-out 0s, background-color 150ms ease-in-out 0s; }
 
-a.botanic-logo {
+a.echo-logo {
   display: block;
   width: 45px;
   height: 66px;
-  background: url(/botanic/img/logo.png) no-repeat left top; }
+  background: url("/img/minipick/logo.png") no-repeat left top; }
 
 
 /** Image rotate **/
@@ -327,6 +327,15 @@ section.grey-level-2 {
 section.grey-level-3 {
   background-color: #f3f3f3;
   color: #333; }
+<style>
+   .thumb img  {
+    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
+    padding: 15px; /* Расстояние от картинки до рамки */
+    background: #666; /* Цвет фона */
+    margin-right: 10px; /* Отступ справа */
+    margin-bottom: 10px; /* Отступ снизу */
+   }
+  </style>
 
 section.grey-level-4 {
   background-color: #ebebeb; }
