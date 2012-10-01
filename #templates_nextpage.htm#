@@ -1,12 +1,12 @@
 // -*- mode: closure-template-html; fill-column: 140 -*-
 
-{namespace tpl}
+{namespace tpl-nextpage}
 
-{template navelt}
+{template navelt-nextpage}
   <div><a href="{$link}">{$title}</a></div>{\n}
 {/template}
 
-{template root}
+{template root-nextpage}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">{\n}
 <html xmlns="http://www.w3.org/1999/xhtml">{\n}
 
@@ -211,9 +211,9 @@
             </nav>
             <aside>
                 <nav id="nav-aside" class="clearfix">
-                    <a href="/content/contacts">КОНТАКТЫ</a>
-                    <a href="/content/akcii">АКЦИИ</a>
-                    <a href="/content/news ">НОВОСТИ</a>
+                    <a href="/content/contacts">Контакты</a>
+                    <a href="/content/akcii">Акции</a>
+                    <a href="/content/news ">Новости</a>
                 </nav>
             </aside>
         </div>
@@ -226,25 +226,25 @@
                 <div id="page-menu">
                   <ul class="clearfix no-list">
                   </ul>
-                    <ul class="clearfix no-list" id="news-family-page-menu">
+                    <ul class="clearfix no-list" id="-family-page-menu">
                       <ul class="no-list">
                           <li>
-                            <a href="/content/news/intel ">10.04.2012 Компания "Botanical.LAB" завершила озеленение офиса компании "Intel"</a>
+                            <a href="/content/ ">text</a>
                           </li>
                           <li>
-                            <a href="/content/news/raduga ">07.06.2012 Компания "Botanical.LAB" завершила озеленение зимнего сада Бизнес-центра "Радуга"</a>
+                            <a href="/content/  ">text</a>
                           </li>
                           <li>
-                            <a href="/content/news/umo-konsalt ">01.08.2012 Компания "Botanical.LAB" завершила озеленение офиса компании "ЮМО-консалт"</a>
+                            <a href="/content/  ">text</a>
                           </li>
                           <li>
-                            <a href="/content/news/potek ">06.07.2012 Компания "Botanical.LAB" завершила озеленение офиса компании "ОПТЭК"</a>
+                            <a href="/content/  ">text</a>
                           </li>
                         </ul>
                     </ul>
                 </div>
                 <div id="mapsite">
-                    <a href="/content/mapsite">КАРТА САЙТА</a>
+                    <a href="/content/mapsite">Карта сайта</a>
                     <img src="/img/minipick/logo.png" width="" height="" alt="logo-botanic" />
                 </div>
             </div>
@@ -254,163 +254,83 @@
 
 <section class="feature">
     <div id="banner">
-        <div data-order="1" style="background: url(/img/rosa_4.jpg) no-repeat center top;">
+        <div data-order="1" style="background: url(/img/banner/headerbg.jpg) no-repeat center top;">
             <div class="banner-copy">
               <br>
                 <br>
                   <br>
                     <br>
                     <span>Botanical.LAB</span><br />
-                    <span><b>Красота вокруг нас...</b></span><br />
+                    <span><b>О нашей компании...</b></span><br />
                     <span><a href='mailto:info@botanical-lab.ru' class="organization_male">info@botanical-lab.ru</a></span><br />
-                    <span><a href="/content/catalog" class="btn btn-lge">Подробнее</a></span>
+                    <span><a href="/content/articles" class="btn btn-lge">Подробнее</a></span>
             </div>
         </div>
     </div>
 </section>
 
-<section id="industry-solutions" class="grey-level-3">
-    <h2><a href="/content/galery">Городское озеленение</a></h2>
-    <ul class="clearfix no-list">
-          <li><a href="/content/galery/city"><h5>Офис компании Аванпост</h5>
-            <img style="margin-top: 15px;" src="/img/gallery/IMG_2422s.jpg" width="140" height="140" alt="city-flower" />
-        </a></li>
-      <li><a href="/content/galery/city"><h5>Уличное озеленение</h5>
-            <img style="margin-top: 15px;" src="/img/gallery/bl3.jpg" width="140" height="140" alt="city-flower" />
-        </a></li>
-      <li><a href="/content/galery/city"><h5>Озеленение скверов</h5>
-            <img src="/img/gallery/bl4.jpg" width="140" height="140" alt="city-flower" />
-        </a></li>
-      <li><a href="/content/galery/city"><h5>Озеленение главных входов в офис</h5>
-            <img style="margin-top: 15px;" src="/img/gallery/IMG_2426s.jpg" width="140" height="140" alt="city-flower" />
-        </a></li>
-      <li><a href="/content/galery/city"><h5>Уличное озеленение</h5>
-            <img style="margin-top: 15px;" src="/img/gallery/IMG_2423s.jpg" width="140" height="140" alt="city-flower" />
-        </a></li>
-    </ul>
+<section><div>
+    <div style="padding: 30px 380px 0px 0px;">
+        <p>text file about</p>
+    </div>
+</div></section>
+
+<section id="app-ecosystem" class="grey-level-4"><div>
+            <div class="about">
+            </div>
+            <div class="about">
+                            <h2>О компании Botanical.LAB</h2>
+        <ul class="clearfix no-list app-list">
+<li class="clearfix">
+    <img src="/img/" width="110" height="110" />
+    <h5><a href="/content/">name</a></h5>
+    <a class="btn btn-grey btn-sml" href="/img/">Просмотреть</a>
+</li>
+<li class="clearfix">
+    <img src="/img/" width="110" height="110" />
+    <h5><a href="/content/">name</a></h5>
+    <a class="btn btn-grey btn-sml" href="/img/">Просмотреть</a>
+</li>
+<li class="clearfix">
+    <img src="/img/" width="110" height="110" />
+    <h5><a href="/content/">name</a></h5>
+    <a class="btn btn-grey btn-sml" href="/img/">Просмотреть</a>
+</li>
+<li class="clearfix">
+    <img src="/img/" width="110" height="110" />
+    <h5><a href="/content/">name</a></h5>
+    <a class="btn btn-grey btn-sml" href="/img/">Просмотреть</a>
+</li>
+<li class="clearfix">
+</ul>
+<br>
+<center><img src="/img/minipick/divider.gif" width="" height="" /></center>
+     </div>
 </section>
 
-<section id="industry-solutions" class="grey-level-3">
-    <h2><a href="/content/galery">Оформление интерьеров</a></h2>
-    <ul class="clearfix no-list">
-          <li><a href="/content/galery/inter"><h5>Офис компании VTS</h5>
-            <img style="margin-top: 15px;" src="/img/gallery/IMG_2413s.jpg" width="140" height="140" alt="city-flower" />
-            <a class="btn btn-grey btn-sml" href="/content/service/oformlint">Просмотреть оформление</a>
-        </a></li>
-      <li><a href="/content/galery/inter"><h5>Оформление офисов</h5>
-            <img style="margin-top: 15px;" src="/img/gallery/IMG_2144s.jpg" width="140" height="140" alt="city-flower" />
-            <a class="btn btn-grey btn-sml" href="/content/service/oformlint">Просмотреть оформление</a>
-        </a></li>
-      <li><a href="/content/galery/inter"><h5>Цветы в офисном пространстве</h5>
-            <img style="margin-top: 15px;" src="/img/gallery/IMG_2417s.jpg" width="140" height="140" alt="city-flower" />
-            <a class="btn btn-grey btn-sml" href="/content/service/oformlint">Просмотреть оформление</a>
-        </a></li>
-      <li><a href="/content/galery/inter"><h5>Частная квартира на ул. Б. Конюшенная</h5>
-            <img style="margin-top: 15px;" src="/img/gallery/IMG_2162s.jpg" width="140" height="140" alt="city-flower" />
-            <a class="btn btn-grey btn-sml" href="/content/service/oformlint">Просмотреть оформление</a>
-        </a></li>
-      <li><a href="/content/galery/inter"><h5>Офис компании Марва-трейд</h5>
-            <img style="margin-top: 15px;" src="/img/gallery/IMG_2401s.jpg" width="140" height="140" alt="city-flower" />
-            <a class="btn btn-grey btn-sml" href="/content/service/oformlint">Просмотреть оформление</a>
-        </a></li>
-    </ul>
-</section>
-
-<section id="app-ecosystem" class="grey-level-4"><div>
-            <div class="zimsad">
-            </div>
-            <div class="zimsad">
-                            <h2>Зимний сад</h2>
-        <ul class="clearfix no-list app-list">
-<li class="clearfix">
-    <img src="/img/gif/zim1.gif" width="60" height="60" />
-    <h5><a href="/content/service/zimsad">Зимний сад</a></h5>
-    <a class="btn btn-grey btn-sml" href="/img/gif/zim1.gif">Просмотреть</a>
-</li>
-<li class="clearfix">
-    <img src="/img/gif/zim2.gif" width="60" height="60" />
-    <h5><a href="/content/service/zimsad/zimsad-cottadge">Зимний сад коттеджа</a></h5>
-    <a class="btn btn-grey btn-sml" href="/img/gif/zim2.gif">Просмотреть</a>
-</li>
-<li class="clearfix">
-    <img src="/img/gif/zim3.gif" width="60" height="60" />
-    <h5><a href="/content/service/zimsad/dizint-zimsad">Дизайн зимнего сада</a></h5>
-    <a class="btn btn-grey btn-sml" href="/img/gif/zim3.gif">Просмотреть</a>
-</li>
-<li class="clearfix">
-    <img src="/img/gif/zim4.gif" width="60" height="60" />
-    <h5><a href="/content/service/zimsad/rastenie-zimsad">Растения для зимнего сада</a></h5>
-    <a class="btn btn-grey btn-sml" href="/img/gif/zim4.gif">Просмотреть</a>
-</li>
-<li class="clearfix">
-</ul>
-<center><img src="/img/minipick/divider.gif" width="" height="" /></center>
-     </div>
-  </section>
-
-<section id="app-ecosystem" class="grey-level-4"><div>
-            <div class="kompoziciya">
-            </div>
-            <div class="kompoziciya">
-                            <h2>Композиции от Botanical.LAB</h2>
-        <ul class="clearfix no-list app-list">
-<li class="clearfix">
-    <img src="/img/kompoziciya/compoz01.jpg" width="60" height="60" />
-    <h5><a href="/content/service/kompoz-flower">Композиции из цветов</a></h5>
-    <a class="btn btn-grey btn-sml" href="/content/service/kompoz-flower">Просмотреть</a>
-</li>
-<li class="clearfix">
-    <img src="/img/kompoziciya/compoz02.jpg" width="60" height="60" />
-    <h5><a href="/content/service/ozelenenie/ozelenenie-offic">Озеленение офиса</a></h5>
-    <a class="btn btn-grey btn-sml" href="/catalog/catalog-kashpo">Просмотреть</a>
-</li>
-<li class="clearfix">
-    <img src="/img/kompoziciya/compoz03.jpg" width="60" height="60" />
-    <h5><a href="/content/service/fitodiz/flower-offic">Живое украшение</a></h5>
-    <a class="btn btn-grey btn-sml" href="/catalog/catalog-flower">Просмотреть</a>
-</li>
-<li class="clearfix">
-    <img src="/img/kompoziciya/compoz06.jpg" width="60" height="60" />
-    <h5><a href="/content/service/fitodiz/rastenie-offic">Растения для офиса</a></h5>
-    <a class="btn btn-grey btn-sml" href="/content/akcii">Просмотреть</a>
-</li>
-<li class="clearfix">
-</ul>
-<center><img src="/img/minipick/divider.gif" width="" height="" /></center>
-     </div>
-  </section>
-
-<section id="app-ecosystem" class="grey-level-4"><div>
-            <div class="pop">
-            </div>
-            <div class="pop">
-                            <h2>Самые популярные растения</h2>
-        <ul class="clearfix no-list app-list">
-<li class="clearfix">
-    <img src="/img/gif/pop1.gif" width="60" height="60" />
-    <h5><a href="/catalog">Аглаонема Сильвер Квин</a></h5>
-    <a class="btn btn-grey btn-sml" href="/catalog/catalog-flower">Просмотреть</a>
-</li>
-<li class="clearfix">
-    <img src="/img/gif/pop2.gif" width="60" height="60" />
-    <h5><a href="/catalog">Сансевиерия Блек Коралл</a></h5>
-    <a class="btn btn-grey btn-sml" href="/catalog/catalog-kashpo">Просмотреть</a>
-</li>
-<li class="clearfix">
-    <img src="/img/gif/pop3.gif" width="60" height="60" />
-    <h5><a href="/catalog">Спатифиллум</a></h5>
-    <a class="btn btn-grey btn-sml" href="/catalog/iskuss-r">Просмотреть</a>
-</li>
-<li class="clearfix">
-    <img src="/img/gif/pop4.gif" width="60" height="60" />
-    <h5><a href="/catalog">Антуриум</a></h5>
-    <a class="btn btn-grey btn-sml" href="/content/service/uhod-room-flower">Просмотреть</a>
-</li>
-<li class="clearfix">
-</ul>
-<center><img src="/img/minipick/divider.gif" width="" height="" /></center>
-     </div>
-  </section>
+<section id="business-features" class="grey-level-1"><div>
+    <h2>Botanical.LAB</h2>
+    <div class="clearfix">
+        <div>
+            <a class="image-link" href="/???"><img src="/content/pick?.gif"
+            /></a>
+            <h3><a href="/???">name?</a></h3>
+            <p>kratkoe opisanie</p>
+        </div>
+        <div>
+            <a class="image-link" href="/???"><img src="/content/pick?.gif"
+            /></a>
+            <h3><a href="/???">name?</a></h3>
+            <p>kratkoe opisanie</p>
+        </div>
+        <div>
+            <a class="image-link" href="/???"><img src="/content/pick?.gif"
+            /></a>
+            <h3><a href="/???">name?</a></h3>
+            <p>kratkoe opisanie</p>
+        </div>
+    </div>
+</div></section>
 
 <section id="contacts" class="grey-level-2"><div>
     <img src="/img/call.jpg" width="60" height="60" />
@@ -422,15 +342,45 @@
 
 <section id="echo-platform" class="grey-level-5"><div>
     <div>
-        <h2><a href="/content/service/ozelenenie">Озеленение</a></h2>
-        </br><p><i>Где много цветов,тешится там сердце богов блаженных…</i>Сапфо</p>
+        <h2><a href="/content/???">name</a></h2>
+        </br><p><i>цитата</i>автор</p>
     </div>
     <ul class="no-list">
-        <li><a href="/content/service/ozelenenie/city-ozelenenie">Городское<br />Озеленение</a></li>
-        <li><a href="/content/service/ozelenenie/ozelenenie-offic">Озеленение<br />Офисов</a></li>
-        <li><a href="/content/service/kompoz-flower">Композиции<br />Из цветов</a></li>
+        <li><a href="/content/???">name1<br />name2</a></li>
+        <li><a href="/content/???">name1<br />name2</a></li>
+        <li><a href="/content/???">name1<br />name2</a></li>
     </ul>
 </div>
+</section>
+
+<section class="pre-footer grey-level-2"><div>
+            <div class="featured-customers">
+            </div>
+            <div class="related-apps">
+                            <h2>name1</h2>
+        <ul class="clearfix no-list app-list">
+<li class="clearfix">
+    <img src="/content/img/???.png" width="60" height="60" />
+    <h5><a href="/content/???">name2</a></h5>
+    <a class="btn btn-grey btn-sml" href="/content/???">Подробнее</a>
+</li>
+<li class="clearfix">
+    <img src="/content/img/???.png" width="60" height="60" />
+    <h5><a href="/content/???">name2</a></h5>
+    <a class="btn btn-grey btn-sml" href="/content/???">Подробнее</a>
+</li>
+<li class="clearfix">
+    <img src="/content/img/???.png" width="60" height="60" />
+    <h5><a href="/content/???">name2</a></h5>
+    <a class="btn btn-grey btn-sml" href="/content/???">Подробнее</a>
+</li>
+        </ul>
+            </ul>
+  </div>
+  </div>
+  </div>
+            </div>
+        </div>
 </section>
 
 <footer id="footer"><div class="clearfix">
