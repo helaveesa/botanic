@@ -144,7 +144,7 @@ a.btn-rounded:hover {
   background: -ms-linear-gradient(top, #91f117 0%, #34c924 100%);
   background: linear-gradient(to bottom, #91f117 0%, #34c924 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$top', endColorstr='$bottom',GradientType=0 );
-  color: #009902; }
+  color: #009902;}
 
 a.btn-more:after {
   content: url(/Content/Images/Global/Icons/white-arrow-right.png);

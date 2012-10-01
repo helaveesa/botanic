@@ -146,10 +146,13 @@ body.home #echo-platform ul {
     margin-left: 70px;
     background-color: #bdbdbd;
     color: #ffffff; }
+    body.home #echo-platform ul li:hover {
+        background-color:#34C924;
+    }
     body.home #echo-platform ul li a {
       color: white; }
     body.home #echo-platform ul li a:hover {
-      color: #34c924; }
+      color: #FFFFFF; }
   body.home #echo-platform ul li:first-child {
     margin-left: 0px; }
 body.home #article-thrive > div {
