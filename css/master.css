@@ -178,12 +178,13 @@ a.btn-more:after {
 div.banner-copy {
   width: 940px;
   margin: 0 auto;
-  padding-top: 150px; }
+  padding-top: 50px;
+  padding-right: 15px;}
   div.banner-copy span {
     font-size: 33px;
     line-height: 53px;
     color: white;
-    background: url("/Content/Images/Global/Pixels/0f0e17-60.png");
+    background: url("http://aboutecho.com/Content/Images/Global/Pixels/0f0e17-60.png");
     padding: 4px 6px; }
   div.banner-copy span.em {
     background: #34c924; }
@@ -380,7 +381,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
     top: -6px; }
   #header #breadcrumbs {
     font-size: 33px;
-    height: 46px;
+    height: 0px;
     padding: 55px 0px 35px; }
     #header #breadcrumbs a {
       color: #d3f9a9; }
@@ -437,10 +438,12 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
   font-size: 140%;
   padding-top: 10px;
   margin-left: -8px;
-  width: 465px;
+  width: 665px;
   position: relative; }
   #nav-main ul, #nav-main li {
-    padding: 0px; }
+    padding: 0px;
+    margin-right: 25px;
+  }
   #nav-main > ul > li {
     display: block;
     float: left; }
