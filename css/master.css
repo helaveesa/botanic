@@ -70,7 +70,7 @@ div.image-rotate {
 	LISTS
 **/
 ul, li {
-  list-style: none outside url("/Content/Images/Global/Icons/blue-arrow-right.png"); }
+  list-style: none outside url("/css/master/blue-arrow-right.png"); }
 
 ul {
   padding: 0px 0px 0px 17px; }
@@ -327,15 +327,6 @@ section.grey-level-2 {
 section.grey-level-3 {
   background-color: #f3f3f3;
   color: #333; }
-<style>
-   .thumb img  {
-    border: 2px solid #55c5e9; /* Рамка вокруг фотографии */
-    padding: 15px; /* Расстояние от картинки до рамки */
-    background: #666; /* Цвет фона */
-    margin-right: 10px; /* Отступ справа */
-    margin-bottom: 10px; /* Отступ снизу */
-   }
-  </style>
 
 section.grey-level-4 {
   background-color: #ebebeb; }
@@ -403,7 +394,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
     left: 0px;
     position: absolute;
     width: 100%;
-    background: transparent url("/Content/Images/Global/Pixels/19b9f3-70.png"); }
+    background: transparent url("/css/master/19b9f3-70.png"); }
     #header #overlay > div {
       width: 940px;
       margin: 0 auto; }
@@ -434,7 +425,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
         text-align: center;
         height: 25px;
         font-size: 14px;
-        background: transparent url("/Content/Images/Global/Pixels/19b9f3-60.png");
+        background: transparent url("/css/master/19b9f3-60.png");
         float: right; }
         #header #overlay > div #browse-apps a {
           color: white; }
