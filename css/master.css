@@ -442,7 +442,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
   position: relative; }
   #nav-main ul, #nav-main li {
     padding: 0px;
-    margin-right: 25px;
+    margin-right: 0px;
   }
   #nav-main > ul > li {
     display: block;
