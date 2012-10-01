@@ -38,8 +38,14 @@
   (merge-pathnames relative *basedir*))
 
 (closure-template:compile-template :common-lisp-backend (path "templates.htm"))
+<<<<<<< HEAD
 ;;(closure-template:compile-template :common-lisp-backend (path "templates_service.htm"))
 ;;(closure-template:compile-template :common-lisp-backend (path "templates_galery.htm"))
 ;;(closure-template:compile-template :common-lisp-backend (path "templates_nextpage.htm"))
 
 
+=======
+(closure-template:compile-template :common-lisp-backend (path "templates_service.htm"))
+(closure-template:compile-template :common-lisp-backend (path "templates_galery.htm"))
+(closure-template:compile-template :common-lisp-backend (path "templates_nextpage.htm"))
+>>>>>>> c8a03c76592287d8d265f1b373c04b77e01200c6
