@@ -9,10 +9,6 @@
 (defparameter *default-render-method* (make-instance 'botanic-render))
 
 
-(defmethod restas:render-object ((designer botanic-render) (data list))
-  (format nil "~{[~A]~^, ~}" data))
-
-
 ;; (defmethod restas:render-object ((designer botanic-render) (data list))
 ;;   (destructuring-bind (headtitle navpoints content) data
 ;;     (tpl:root (list :headtitle headtitle
