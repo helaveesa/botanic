@@ -51,20 +51,11 @@
 (def/route galery2 ("city")
   (old-page "content/city.htm"))
 
-(def/route galery3 ("drugie_city")
-  (old-page "content/drugie-city.htm"))
-
 (def/route galery4 ("inter")
   (old-page "content/inter.htm"))
 
-(def/route galery5 ("drugie_inter")
-  (old-page "content/drugie-inter.htm"))
-
 (def/route galery6 ("landshaf")
   (old-page "content/landshaf.htm"))
-
-(def/route galery7 ("drugie_landshaf")
-  (old-page "content/drugie-landshaf.htm"))
 
 (def/route catalog ("catal")
   (old-page "catalog/catal.htm"))

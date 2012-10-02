@@ -13,8 +13,6 @@
                  #:postmodern)
   :serial       t
   :components   ((:static-file "templates.htm")
-                 ;;(:static-file "templates_service.htm")
-                 ;;(:static-file "templates_galery.htm")
                  ;;(:static-file "templates_nextpage.htm")
                  (:file "defmodule")
                  (:file "render")
