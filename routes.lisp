@@ -66,6 +66,15 @@
 (def/route catalog3 ("catk")
   (old-page "catalog/catk.htm"))
 
+(def/route catalog31 ("plastic")
+  (old-page "catalog/catalog-kashpo/plastic.htm"))
+
+(def/route catalog32 ("metall")
+  (old-page "catalog/catalog-kashpo/metall.htm"))
+
+(def/route catalog33 ("keramika")
+  (old-page "catalog/catalog-kashpo/keramika.htm"))
+
 (def/route catalog4 ("iskuss")
   (old-page "catalog/iskuss.htm"))
 
