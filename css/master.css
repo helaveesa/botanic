@@ -382,9 +382,9 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
     position: relative;
     top: -6px; }
   #header #breadcrumbs {
-    font-size: 33px;
-    height: 0px;
-    padding: 55px 0px 35px; }
+    font-size: 20px;
+    height: 1px;
+    padding: 1px 0px 1px; }
     #header #breadcrumbs a {
       color: #d3f9a9; }
     #header #breadcrumbs a:hover {
