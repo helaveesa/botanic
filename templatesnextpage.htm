@@ -1,12 +1,12 @@
 // -*- mode: closure-template-html; fill-column: 110 -*-
 
-{namespace tpl-nextpage}
+{namespace tpl}
 
-{template navelt-nextpage}
+{template navelt}
   <div><a href="{$link}">{$title}</a></div>{\n}
 {/template}
 
-{template root-nextpage}
+{template root}
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">{\n}
 <html xmlns="http://www.w3.org/1999/xhtml"
       class="js no-flexbox flexbox-legacy canvas canvastext webgl no-touch geolocation postmessage
@@ -52,31 +52,39 @@
                   <a href="/content/about/about-company">О компании</a>
                   <ul>
                     <li>
-                      <a href="/content/about/about-clients">Наши клиенты</a>
+                      <a href="/content/about-clients">Наши клиенты</a>
                     </li>
                     <li>
-                      <a href="/content/about/work">Этапы работы</a>
+                      <a href="/content/work">Этапы работы</a>
                     </li>
+                    <!--<li>
+                    <p class="organization_phone">+7 (921) 432-47-55<p/>
+                    </li> -->
                   </ul>
                 </li>
                 <li>
                   <a href="/content/galery">Галерея</a>
                   <ul>
                     <li>
-                      <a href="/content/galery/inter">Оформление интерьеров</a>
+                      <a href="/content/inter">Оформление интерьеров</a>
                     </li>
                     <li>
-                      <a href="/content/service/oformlint">Услуги по интерьеру</a>
+                      <a href="/content/oforml-int">Услуги по интерьеру</a>
                     </li>
                     <li>
-                      <a href="/content/galery/city">Городское озеленение</a>
+                      <a href="/content/city">Городское озеленение</a>
+                    </li>
+                    <!--<li>
+                      <a href="/content/landshaf">Ландшафтный дизайн</a>
                     </li>
                     <li>
-                      <a href="/content/galery/landshaf">Ландшафтный дизайн</a>
+                      <a href="/content/landshafdiz">Услуги по дизайну</a>
                     </li>
                     <li>
-                      <a href="/content/service/landshafdiz">Услуги дизайну</a>
+                      <a href="/content/dizint-zimsad">Услуги по зимнему дизайну</a>
+                    </li> -->
                     </li>
+
                     <li>
                       <a href="/content/news">Выполненные проекты</a>
                     </li>
@@ -107,19 +115,56 @@
               <div class="up-arrow"></div>
               <ul class="clearfix no-list">
                 <li>
-                  <a href="/catalog/catalog-flower">Цветущие растения</a>
+                  <a href="/catalog/catr">Цветущие растения</a>
                   <ul>
                     <li>
-                      <a href="/catalog/catalog-flower">Высокие</a>
+                      <a href="/catalog/catalog-flower/visokie">Высокие</a>
                     </li>
                     <li>
-                      <a href="/catalog/catalog-flower">Декоративные</a>
+                      <a href="/catalog/catalog-flower/dekor">Декоративные</a>
+                    </li>
+                    <!--<li>
+                    <li>
+                      <a href="/catalog/catalog-flower/prices-flower">Цены</a>
                     </li>
                     <li>
-                      <a href="/catalog/iskusstv-r">Искусственные растения</a>
+                      <a href="/content/rastenie-zimsad">Растения для зимнего сада</a>
+                    </li>
+                    <li>
+                      <a href="/content/rastenie-offic">Растения для офиса</a>
+                    </li> -->
                     </li>
                   </ul>
                 </li>
+                <li>
+                  <a href="/catalog/iskusstv-r">Искусственные растения</a>
+                  <ul>
+                    <li>
+                      <a href="/catalog/iskuss">Общие сведения</a>
+                    </li>
+                    <li>
+                      <a href="/catalog/iskusstv-r/prices-iskusstv-r">Цены</a>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="/catalog/catalog-kashpo">Каталог кашпо</a>
+                  <ul>
+                    <!--<li>
+                      <a href="/catalog/catal">Общие сведения</a>
+                    </li>
+                    <li>
+                      <a href="/catalog/catalog-kashpo/prices-kashpo">Цены</a>
+                    </li> -->
+                    <li>
+                      <a href="/catalog/catalog-kashpo/plastic">Пластик</a>
+                    </li>
+                    <li>
+                      <a href="/catalog/catalog-kashpo/metall">Металл</a>
+                    </li>
+                    <li>
+                      <a href="/catalog/catalog-kashpo/keramika">Керамика</a>
+                    </li>
               </ul>
             </nav>
           </li>
@@ -129,18 +174,69 @@
               <div class="up-arrow"></div>
               <ul class="clearfix no-list">
                 <li>
-                  <a href="/content/service/ozelenenie">Озеленение</a>
+                  <a href="/content/ozelenenie">Озеленение</a>
                   <ul>
                     <li>
-                      <a href="/content/service/fitodiz">Фитодизайн</a>
+                      <a href="/content/city-ozelenenie">Городское озеленение</a>
+                    </li>
+                    <!--<li>
+                      <a href="/content/landshaf-city">Ландшафтные работы в городе</a>
                     </li>
                     <li>
-                      <a href="/content/service/zimsad">Зимний сад</a>
+                      <a href="/content/landshaf-village">Ландшафтные работы за городом</a>
+                    </li> -->
+                    <li>
+                      <a href="/content/fitodiz-int">Интерьер</a>
+                    <li>
+                      <a href="/content/landshaf-city">Ландшафтные работы в городе</a>
                     </li>
                     <li>
-                      <a href="/content/service/kompoz-flower">Композиции из цветов</a>
+                      <a href="/content/landshaf-village">Ландшафтные работы за городом</a>
+                    </li>
+                    <li>
+                      <a href="/content/fitodiz">Фитодизайн</a>
+                    </li>
+                    <li>
+                      <a href="/content/fitodiz-int">Интерьер</a>
+                    </li>
+                    <li>
+                      <a href="/content/zimsad">Зимний сад</a>
+                    </li>
+                    <li>
+                      <a href="/content/kompoz-flower">Композиции из цветов</a>
                     </li>
                   </ul>
+                  <li>
+                  <a href="/content/oforml-int">Оформление интерьеров</a>
+                  <ul>
+                    <li>
+                      <a href="/content/oforml-offic">Оформление офиса</a>
+                    </li>
+                    <li>
+                      <a href="/content/oforml-cafe">Оформление кафе</a>
+                    </li>
+                    <li>
+                      <a href="/content/flower-offic">Цветы для офиса</a>
+                    </li>
+                    <li>
+                      <a href="/content/rastenie-offic">Растения для офиса</a>
+                    </li>
+                  </ul>
+                  <li>
+                  <a href="/content/NY">Новогоднее оформление офиса</a>
+                  <ul>
+                    <li>
+                      <a href="/content/zimsad">Зимний сад</a>
+                    </li>
+                    <li>
+                      <a href="/content/oforml-spa">Оформление spa</a>
+                    </li>
+                    <li>
+                      <a href="/content/oforml-hotel">Оформление Hotel</a>
+                    </li>
+                    <li>
+                      <a href="/content/zimsad-cottadge">Оформление коттеджей</a>
+                    </li>
                 </li>
               </ul>
             </nav>
@@ -154,18 +250,27 @@
                   <a href="/content/news">Новости</a>
                   <ul>
                     <li>
-                      <a href="/content/articles/teory">Емкости для растений</a>
+                      <a href="/content/emkosti">Емкости для растений</a>
                     </li>
                     <li>
-                      <a href="/content/articles/history-zimsad">История зимних садов</a>
+                      <a href="/content/history-zimsad">История зимних садов</a>
                     </li>
                     <li>
-                      <a href="/content/articles/dom-offic">Какие выбрать растения?</a>
+                      <a href="/content/dom-offic">Какие выбрать растения?</a>
                     </li>
                     <li>
-                      <a href="/content/articles/spasti-offic">Комнатные растения в офисе</a>
+                      <a href="/content/spasti-offic">Комнатные растения в офисе</a>
                     </li>
                   </ul>
+                  <li>
+                  <a href="/content/akcii">Акции от Botanical.LAB</a>
+                  <ul>
+                    <li>
+                      <a href="/content/teory">Сад в теории</a>
+                    </li>
+                    <li>
+                      <a href="/content/tehnich-har">Техническое исполнение</a>
+                    </li>
                 </li>
               </ul>
             </nav>
@@ -175,7 +280,9 @@
 
       </div>
 
-      <div id="breadcrumbs"> </div>
+
+    <div id="breadcrumbs"> </div>
+
 
       <div id="overlay">
         <div class="clearfix">
@@ -183,22 +290,16 @@
             <ul class="clearfix no-list"> </ul>
             <ul id="app-family-page-menu" class="clearfix no-list">
               <li>
-                <a href="/WhatWeOffer/AppEcosystem ">Apps</a>
+                <a href="/about/galery ">Галерея</a>
                 <ul class="no-list">
                   <li>
-                    <a href="/Apps/RealtimeConversation ">Real-time Conversation</a>
+                    <a href="content/city ">Городское озеленение</a>
                   </li>
                   <li>
-                    <a href="/Apps/SocialAggregation ">Social Aggregation</a>
+                    <a href="/content/inter ">Оформление интерьеров</a>
                   </li>
                   <li>
-                    <a href="/Apps/NewsAndEditorial ">News & Editorial</a>
-                  </li>
-                  <li>
-                    <a href="/Apps/DataVisualization ">Data Visualization</a>
-                  </li>
-                  <li>
-                    <a href="/Apps/SocialFabric ">Social Fabric</a>
+                    <a href="/content/landshaf ">Ландшафтный дизайн</a>
                   </li>
                 </ul>
               </li>
@@ -232,21 +333,21 @@
           </div>
           <ul class="no-list">
             <li>
-              <a href="/content/ozelenenie/ozelenenie-offic">
+              <a href="/content/ozelenenie-offic">
                 Озеленение
                 <br />
                 офисов
               </a>
             </li>
             <li>
-              <a href="/content/service/kompoz-flower">
+              <a href="/content/kompoz-flower">
                 Композиции
                 <br />
                 из цветов
               </a>
             </li>
             <li>
-              <a href="/content/service/oforml-int/oforml-car">
+              <a href="/content/oforml-car">
                 Озеленение
                 <br />
                 автосалонов
@@ -266,7 +367,7 @@
             <li class="clearfix">
               <img width="60" height="60" src="/img/fbotcompany.jpg" />
               <h5>Информация о компании</h5>
-              <a class="btn btn-grey btn-sml" href="/content/about/about-company">Подробнее</a>
+              <a class="btn btn-grey btn-sml" href="/content/about-company">Подробнее</a>
             </li>
             <li class="clearfix">
               <img width="60" height="60" src="/img/peacegarden.jpg" />
@@ -286,17 +387,17 @@
             <li class="clearfix">
               <img width="60" height="60" src="/img/kust.jpg" />
               <h5>Озеленение</h5>
-              <a class="btn btn-grey btn-sml" href="/content/service/ozelenenie">Подробнее</a>
+              <a class="btn btn-grey btn-sml" href="/content/ozelenenie">Подробнее</a>
             </li>
             <li class="clearfix">
               <img width="60" height="60" src="/img/micki.jpg" />
               <h5>Фитодизайн</h5>
-              <a class="btn btn-grey btn-sml" href="/content/service/fitodiz">Подробнее</a>
+              <a class="btn btn-grey btn-sml" href="/content/fitodiz">Подробнее</a>
             </li>
             <li class="clearfix">
               <img width="60" height="60" src="/img/zim5.jpg" />
               <h5>Зимний сад</h5>
-              <a class="btn btn-grey btn-sml" href="/content/service/zimsad">Подробнее</a>
+              <a class="btn btn-grey btn-sml" href="/content/zimsad">Подробнее</a>
             </li>
             <li class="clearfix">
               <img width="60" height="60" src="/img/korovka.jpg" />
@@ -309,19 +410,23 @@
 
 
       <section id="article-amc" class="article right">
-        <div style="background: url('http://aboutecho.com/Content/Images/Homepage/case-study.jpg') no-repeat
-                    scroll left 60px transparent;">
+        <div style="background: url('/img/pick/kistibig.jpg') no-repeat
+                    scroll left 0px transparent;">
           <article>
             <header>
-              <img width="100" height="59" alt="AMC" src="http://aboutecho.com/Content/Images/Homepage/case-study-logo.jpg" />
               <h2>
-                <em>AMC</em>
-                Networks Boosts Ratings with Echo
+                <br>
+                  <br>
+                    <br>
+                      <img width="" height="" alt="logo" src="/img/minipick/logo.png" />
+                <em>Botanical.LAB</em>
+                <b>Оформление офиса</b>
               </h2>
             </header>
-            <p>AMC built a timed Story Sync, powered by Echo that helped them drive social engagement up 605% for the
-              Breaking Bad Season Premiere.</p>
-            <a class="btn btn-lge btn-more" href="/CustomerSuccess/CaseStudies/AMCNetworks">Read More</a>
+            <p>Первое впечатление о компании, а точнее об офисе, обычно
+            является самым верным и в итоге решающим при проведении встреч и переговоров. Поэтому, продумывая
+            оформление офиса, так важно создать атмосферу стабильности, надежности и процветания.</p>
+            <a class="btn btn-lge btn-more" href="/content/oforml-offic">Подробнее</a>
           </article>
         </div>
       </section>
@@ -333,12 +438,12 @@
       <section id="industry-solutions" class="grey-level-3">
         <div>
           <h2>
-            <a href="/content/service/ozelenenie">Работы по озеленению</a>
+            <a href="/content/ozelenenie">Работы по озеленению</a>
           </h2>
 
           <ul class="clearfix no-list">
             <li>
-              <a href="/content/galery/city">
+              <a href="/content/city">
                 <img width="140" height="140" alt="" src="/img/cityozelen/ozelenenie-v-gorode_clip_image002.jpg" />
                 <div>
                   <h5>Город</h5>
@@ -347,7 +452,7 @@
             </li>
 
             <li>
-              <a href="/content/galery/landshaf">
+              <a href="/content/landshaf">
                 <img width="140" height="140" alt="" src="/img/skver.jpg" />
                 <div>
                   <h5>Скверы</h5>
@@ -356,7 +461,7 @@
             </li>
 
             <li>
-              <a href="/content/service/landshafdiz">
+              <a href="/content/landshafdiz">
                 <img width="140" height="140" alt="" src="/img/babygarden.jpg" />
                 <div>
                   <h5>Дизайн</h5>
@@ -365,7 +470,25 @@
             </li>
 
             <li>
-              <a href="/content/galery/inter">
+              <a href="/content/oforml-offic">
+                <img width="140" height="140" alt="" src="/img/oformloffic.jpg" />
+                <div>
+                  <h5>Интерьер</h5>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/content/NY">
+                <img width="140" height="140" alt="" src="/img/ny3.jpg" />
+                <div>
+                  <h5>Новогоднее</h5>
+                </div>
+              </a>
+            </li>
+
+            <li>
+              <a href="/content/inter">
                 <img width="140" height="140" alt="" src="/img/vhod.jpg" />
                 <div>
                   <h5>Вход</h5>
@@ -443,19 +566,18 @@
           <article>
             <header>
               <h2>
-                Зимний сад
-                <em>Дизайн интерьера</em>
+                Фитодизайн
+                <em>Цветы для офиса</em>
               </h2>
             </header>
-            <p>Зимний сад –  это «полудом-полусад», место для уединенного отдыха в окружении растений, цветов
-            и воды. Переступая порог зимнего сада, уносишься за тысячу километров от повседневности.Это другой
-            мир! Здесь лето круглый год.Это рай для отдыха и для влюбленных в растения!</p>
+            <p>Фитодизайн – это не просто озеленение помещений, это целое искусство создания особой атмосферы
+            и гармонии с природой - удивительное сочетание растений, цветов и интерьера.</p>
             <h2>
-            <a href="/content/service/zimsad">Зима c Botanical.LAB</a>
+            <a href="/content/fitodiz">Фитодизайн для Вашего офиса от Botanical.LAB</a>
             </h2>
           </article>
           <div class="video">
-            video
+            <img width="" height="" alt="greenshouse" src="/img/pick/greentapochki.jpg" />
           </div>
         </div>
       </section>
@@ -483,49 +605,13 @@
             <li class="clearfix">
               <img src="/img/gif/pop4.gif" width="60" height="60" />
               <h5><a href="/catalog">Антуриум</a></h5>
-              <a class="btn btn-grey btn-sml" href="/content/service/uhod-room-flower">Просмотреть</a>
+              <a class="btn btn-grey btn-sml" href="/content/uhod-room-flower">Просмотреть</a>
             </li>
           </ul>
         </div>
       </section>
 
       <footer id="footer"><div class="clearfix">
-          <aside>
-            <a class="botanic-logo" href="/"></a>
-            <img src="/img/minipick/logo.png" width="" height="" alt="logo-botanic" />
-            <p>Красота вокруг нас...</p>
-            <section id="footer-case-studies" class="clearfix">
-              <ul class="no-list clearfix">
-                <li><h4><a href="/content/akcii">АКЦИИ!</a></h4>
-                  <img src="/img/minipick/promo.png" width="" height="" alt="promo-akcii-botanic" />
-              </a></li>
-            </ul>
-          </section>
-        </aside>
-        <div class="content">
-          <section class="clearfix">
-            <div class="column column-2">
-              <h2>Botanical.LAB</h2>
-            </div>
-            <div class="column column-1">
-              <div class="search-box"></div>
-            </div>
-          </div>
-        </section>
-        <section id="footer-case-studies" class="clearfix">
-          <ul class="no-list clearfix">
-            <li><a href="/content/about/about-company">О КОМПАНИИ
-                <img src="/img/rosa4.jpg" width="220" height="110" alt="rosa" />
-            </a></li>
-            <li><a href="/content/catalog">КАТАЛОГ
-                <img src="/img/rosa3.jpg" width="220" height="110" alt="rosa" />
-            </a></li>
-            <li><a href="/content/articles">СТАТЬИ
-                <a href="/content/akcii"> И АКЦИИ
-                  <img src="/img/rosa2.jpg" width="220" height="110" alt="rosa" />
-              </a></li>
-            </ul>
-          </section>
           <nav>
             <ul class="clearfix no-list">
               <li>
@@ -584,34 +670,24 @@
               <li>
                 <h4><a href="/content/contacts">Контакты</a></h4>
                 <ul class="no-list">
-                  <p class="organization_phone">+7 (921) 432-47-55<p/>
                     <li><a href="/content/articles/telephon">Телефоны компании "Botanical.LAB" в Санкт-Петербурге</a></li>
                     <li><a href="/content/articles/zakaz">ЗАКАЗ на РАСТЕНИЯ только по Санкт-Петербургу</a></li>
                   </ul>
                 </li>
               <li>
                 <h4><a href="/content/news">Новости</a></h4>
-                <ul class="no-list">
-                </ul>
-              </li>
-              <li>
                 <h4><a href="/content/akcii">Акции</a></h4>
-                <ul class="no-list">
-                </ul>
-              </li>
-              <li>
-                <h4>Пишите нам!</h4>
                 <img src="/img/minipick/mail.gif" width="" height="" alt="mail-botanic" />
-                <a href='mailto:info@botanical-lab.ru' class="organization_male">info@botanical-lab.ru</a>
-                <p class="copyrights">© Все права защищены. С-Пб.&nbsp; 2010</p>
+                <a href='mailto:info@botanical-lab.ru' class="organization_male">info@botanical-lab.ru</a></br>
+                © Все права защищены. С-Пб.&nbsp; 2010
                 <ul class="no-list">
                 </ul>
               </li>
-              <div class="liveinternet">
+              <!--<div class="liveinternet">
                 <a target="_blank" href="http://www.liveinternet.ru/click">
                   <img width="88" border="0" height="31" title="LiveInternet: показано число просмотров за 24 часа, посетителей за 24 часа и за сегодня" alt="" src="//counter.yadro.ru/hit?t17.15;rhttp%3A//www.botanical-lab.ru/articles-kakie-rasteniya-vybrat-dlya-ofisa.html;s1280*800*24;uhttp%3A//www.botanical-lab.ru/contacts.html;0.7917555686107766">
                   </a>
-                </div>
+                </div> -->
               </ul>
               </nav>
             </div>
