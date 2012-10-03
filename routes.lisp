@@ -63,6 +63,12 @@
 (def/route catalog2 ("catr")
   (old-page "catalog/catr.htm"))
 
+(def/route catalog21 ("dekor")
+  (old-page "catalog/catalog-flower/dekor.htm"))
+
+(def/route catalog22 ("visokie")
+  (old-page "catalog/catalog-flower/visokie.htm"))
+
 (def/route catalog3 ("catk")
   (old-page "catalog/catk.htm"))
 
