@@ -17,11 +17,7 @@ a:hover {
   color: #009902; }
 
 #header, #main, #main > section, #footer {
-<<<<<<< HEAD
   min-width: 940px;}
-=======
-  min-width: 950px;}
->>>>>>> origin/master
 
 #header > div, #main > section > div, #footer > div {
   width: 940px;
@@ -377,12 +373,10 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
   color: #ffffff;
   height: 100px;
   display: block;
-  padding: 12px 0px 0px;
+  padding: 25px 0px 0px;
   position: relative;
   z-index: 2; }
   #header > div {
-    height: 90px;
-    display: block;
     background: #34c924; }
   #header .echo-logo {
     position: relative;
@@ -443,14 +437,10 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
 
 /* Main */
 #nav-main {
-  font-size: 160%;
-  padding-top: 3px;
+  font-size: 140%;
+  padding-top: 10px;
   margin-left: -8px;
-<<<<<<< HEAD
   width: 465px;
-=======
-  width: 500px;
->>>>>>> origin/master
   position: relative; }
   #nav-main ul, #nav-main li {
     padding: 0px;
