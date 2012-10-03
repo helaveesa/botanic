@@ -17,7 +17,7 @@ a:hover {
   color: #009902; }
 
 #header, #main, #main > section, #footer {
-  min-width: 940px; }
+  min-width: 950px;}
 
 #header > div, #main > section > div, #footer > div {
   width: 940px;
@@ -34,7 +34,7 @@ a.echo-logo {
   display: block;
   width: 45px;
   height: 66px;
-  background: url("/botanic/img/minipick/logo.png") no-repeat left top; }
+  background: url("/img/minipick/logo.png") no-repeat left top; }
 
 
 /** Image rotate **/
@@ -371,10 +371,14 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
 #header {
   background: #34c924;
   color: #ffffff;
-  padding: 25px 0px 0px;
+  height: 90px;
+  display: block;
+  padding: 12px 0px 0px;
   position: relative;
   z-index: 2; }
   #header > div {
+    height: 90px;
+    display: block;
     background: #34c924; }
   #header .echo-logo {
     position: relative;
@@ -435,10 +439,10 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
 
 /* Main */
 #nav-main {
-  font-size: 140%;
-  padding-top: 10px;
+  font-size: 160%;
+  padding-top: 3px;
   margin-left: -8px;
-  width: 665px;
+  width: 500px;
   position: relative; }
   #nav-main ul, #nav-main li {
     padding: 0px;
