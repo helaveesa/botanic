@@ -84,6 +84,15 @@
 (def/route catalog4 ("iskuss")
   (old-page "catalog/iskuss.htm"))
 
+(def/route catalog5 ("prices_flower")
+  (old-page "catalog/catalog-flower/prices-flower.htm"))
+
+(def/route catalog51 ("prices_kashpo")
+  (old-page "catalog/catalog-kashpo/prices-kashpo.htm"))
+
+(def/route catalog52 ("prices_iskusstv_r")
+  (old-page "catalog/iskusstv-r/prices-iskusstv-r.htm"))
+
 (def/route serv-price ("ozelen_fitodiz")
   (old-page "content/ozelen-fitodiz.htm"))
 
