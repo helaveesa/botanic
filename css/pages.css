@@ -63,7 +63,7 @@ body.app-case-studies.app-StreamSentimentTrending #header #overlay .up-arrow {
    HOME PAGE /
 **/
 body.home #header #breadcrumbs {
-  padding-top: 0px; }
+  padding-top: 1px; }
 body.home section.feature #banner {
   padding: 0px;
   width: auto; }
