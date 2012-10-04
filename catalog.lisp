@@ -233,7 +233,7 @@
   (:keys name))
 
 (let ((level   1)
-      (sects   (get-org-sect "catalog/catalog-kashpo/prices-kashpo.txt"))
+      (sects   (get-org-sect "/home/rigidus/repo/toledo/README.org"))
       (parents (list (make-org-block :name "root" :content  "root"))))
   (flet ((dbg (obj level parents)
            (format t "~A (l:~A) вниз ~{~A ~}" (name obj) level
@@ -271,10 +271,34 @@
                 ))))))
 
 (do-hash (*org-block*)
-  (format t "~% ~A : ~A ~A" k (name v) (mapcar #'(lambda (x)
-                                                   (format nil "~A:~A"
-                                                           (find-org-block x)
-                                                           (name x)))
-                                               (sub v))))
+  (format t "~% ~A : ~A ~A"
+          k
+          (name v)
+          (mapcar #'(lambda (x)
+                      (format nil "~A:~A"
+                              (find-org-block x)
+                              (name x)))
+                  (sub v))))
+
+;; Находим элемент Userstory
+(let ((userstory-id))
+  (do-hash (*org-block*)
+    (when (search "Userstory" (name v))
+      (setf userstory-id k)))
+  ;; Для каждого из подэлементов ищем estimates
+  (let ((estimates))
+    (defun recursive-find-estimates (elt-id)
+      (let ((elt (gethash elt-id *org-block*)))
+        (if (search "{" (name elt))
+            ;; Нашли, надо разобрать и сохранить
+            (print (name elt))
+            ;; Не нашли
+            2)
+        ;; Обрабатываем подэлементы
+        (loop :for item :in (sub elt) :do
+           (recursive-find-estimates (find-org-block item)))))
+    (recursive-find-estimates userstory-id))
+  ;; Формируем CSV
+  userstory-id)
 
 

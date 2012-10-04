@@ -371,7 +371,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
 #header {
   background: #34c924;
   color: #ffffff;
-  height: 100px;
+  height: 139px;
   display: block;
   padding: 25px 0px 0px;
   position: relative;
@@ -438,13 +438,13 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
 /* Main */
 #nav-main {
   font-size: 140%;
-  padding-top: 10px;
+  padding-top: 23px;
   margin-left: -8px;
   width: 465px;
   position: relative; }
   #nav-main ul, #nav-main li {
     padding: 0px;
-    margin-right: 0px;
+    margin-right: 20px;
   }
   #nav-main > ul > li {
     display: block;
@@ -461,7 +461,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
       position: absolute;
       top: 0px;
       left: 8px;
-      width: 940px;
+      width: 960px;
       padding-top: 51px;
       z-index: 1; }
       #nav-main > ul > li > nav.sub-nav > ul {
@@ -472,7 +472,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
         padding: 30px 0px 60px 20px; }
         #nav-main > ul > li > nav.sub-nav > ul > li {
           float: left;
-          width: 305px; }
+          width: 405px; }
           #nav-main > ul > li > nav.sub-nav > ul > li > a {
             font-size: 28px; }
           #nav-main > ul > li > nav.sub-nav > ul > li a {
@@ -480,7 +480,7 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
           #nav-main > ul > li > nav.sub-nav > ul > li a:hover {
             color: #34c924; }
           #nav-main > ul > li > nav.sub-nav > ul > li > ul {
-            padding: 20px 0px 0px 15px; }
+            padding: 20px 0px 30px 15px; }
     #nav-main > ul > li > nav.sub-nav:before {
       content: "";
       position: absolute;
@@ -504,13 +504,13 @@ body.app-ecosystem.app-ecosystem-root #header #overlay > div #page-menu #app-fam
       width: 9999px;
       left: 940px; }
     #nav-main > ul > li > nav.sub-nav.what-we-offer .up-arrow {
-      left: 25px; }
+      left: 0px; }
     #nav-main > ul > li > nav.sub-nav.customer-success .up-arrow {
-      left: 148px; }
+      left: 83px; }
     #nav-main > ul > li > nav.sub-nav.partner-ecosystem .up-arrow {
-      left: 282px; }
+      left: 175px; }
     #nav-main > ul > li > nav.sub-nav.about-echo .up-arrow {
-      left: 392px; }
+      left: 257px; }
   #nav-main > ul > li:hover > a {
     color: #009902; }
 
@@ -660,6 +660,7 @@ section.pre-footer .tweets {
       color: #bbbbbb; }
     #footer nav > ul > li {
       float: left;
+      padding-right: 20px;
       width: 160px; }
       #footer nav > ul > li > ul > li {
         padding: 2px 0px;
