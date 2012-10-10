@@ -37,10 +37,10 @@
   (old-page "content/about.htm"))
 
 (def/route about2 ("about_company")
-  (old-page "content/about-company.htm"))
+  (old-page "content/about_company.htm"))
 
 (def/route about3 ("about_clients")
-  (old-page "content/about-clients.htm"))
+  (old-page "content/about_clients.htm"))
 
 (def/route about4 ("work")
   (old-page "content/work.htm"))
@@ -85,19 +85,19 @@
   (old-page "catalog/iskuss.htm"))
 
 (def/route catalog5 ("prices_flower")
-  (old-page "catalog/catalog-flower/prices-flower.htm"))
+  (old-page "catalog/catalog-flower/prices_flower.htm"))
 
 (def/route catalog51 ("prices_kashpo")
-  (old-page "catalog/catalog-kashpo/prices-kashpo.htm"))
+  (old-page "catalog/catalog-kashpo/prices_kashpo.htm"))
 
 (def/route catalog52 ("prices_iskusstv_r")
-  (old-page "catalog/iskusstv-r/prices-iskusstv-r.htm"))
+  (old-page "catalog/iskusstv-r/prices_iskusstv_r.htm"))
 
 (def/route serv-price ("ozelen_fitodiz")
-  (old-page "content/ozelen-fitodiz.htm"))
+  (old-page "content/ozelen_fitodiz.htm"))
 
 (def/route serv-price2 ("prof_uhod")
-  (old-page "content/prof-uhod.htm"))
+  (old-page "content/prof_uhod.htm"))
 
 (def/route service ("service")
   (old-page "content/service.htm"))
@@ -106,58 +106,58 @@
   (old-page "content/ozelenenie.htm"))
 
 (def/route service21 ("ozelenenie_offic")
-  (old-page "content/ozelenenie-offic.htm"))
+  (old-page "content/ozelenenie_offic.htm"))
 
 (def/route service22 ("city_ozelenenie")
-  (old-page "content/city-ozelenenie.htm"))
+  (old-page "content/city_ozelenenie.htm"))
 
 (def/route service3 ("fitodiz")
   (old-page "content/fitodiz.htm"))
 
 (def/route service31 ("fitodiz_int")
-  (old-page "content/fitodiz-int.htm"))
+  (old-page "content/fitodiz_int.htm"))
 
 (def/route service32 ("flower_offic")
-  (old-page "content/flower-offic.htm"))
+  (old-page "content/flower_offic.htm"))
 
 (def/route service33 ("rastenie_offic")
-  (old-page "content/rastenie-offic.htm"))
+  (old-page "content/rastenie_offic.htm"))
 
 (def/route service4 ("oforml_int")
-  (old-page "content/oforml-int.htm"))
+  (old-page "content/oforml_int.htm"))
 
 (def/route service41 ("oforml_offic")
-  (old-page "content/oforml-offic.htm"))
+  (old-page "content/oforml_offic.htm"))
 
 (def/route service42 ("oforml_cafe")
-  (old-page "content/oforml-cafe.htm"))
+  (old-page "content/oforml_cafe.htm"))
 
 (def/route service43 ("oforml_hotel")
-  (old-page "content/oforml-hotel.htm"))
+  (old-page "content/oforml_hotel.htm"))
 
 (def/route service44 ("oforml_spa")
-  (old-page "content/oforml-spa.htm"))
+  (old-page "content/oforml_spa.htm"))
 
 (def/route service45 ("oforml_shop")
-  (old-page "content/oforml-shop.htm"))
+  (old-page "content/oforml_shop.htm"))
 
 (def/route service46 ("oforml_car")
-  (old-page "content/oforml-car.htm"))
+  (old-page "content/oforml_car.htm"))
 
 (def/route service5 ("zimsad")
   (old-page "content/zimsad.htm"))
 
 (def/route service51 ("zimsad_cottadge")
-  (old-page "content/zimsad-cottadge.htm"))
+  (old-page "content/zimsad_cottadge.htm"))
 
 (def/route service52 ("dizint_zimsad")
-  (old-page "content/dizint-zimsad.htm"))
+  (old-page "content/dizint_zimsad.htm"))
 
 (def/route service53 ("rastenie_zimsad")
-  (old-page "content/rastenie-zimsad.htm"))
+  (old-page "content/rastenie_zimsad.htm"))
 
 (def/route service6 ("kompoz_flower")
-  (old-page "content/kompoz-flower.htm"))
+  (old-page "content/kompoz_flower.htm"))
 
 (def/route service7 ("NY")
   (old-page "content/NY.htm"))
@@ -166,13 +166,13 @@
   (old-page "content/landshafdiz.htm"))
 
 (def/route service81 ("landshaf_city")
-  (old-page "content/landshaf-city.htm"))
+  (old-page "content/landshaf_city.htm"))
 
 (def/route service82 ("landshaf_village")
-  (old-page "content/landshaf-village.htm"))
+  (old-page "content/landshaf_village.htm"))
 
 (def/route service9 ("uhod_room_flower")
-  (old-page "content/uhod-room-flower.htm"))
+  (old-page "content/uhod_room_flower.htm"))
 
 (def/route service10 ("fitoenergy")
   (old-page "content/fitoenergy.htm"))
@@ -202,7 +202,7 @@
   (old-page "content/raduga.htm"))
 
 (def/route news4 ("umo_konsalt")
-  (old-page "content/umo-konsalt.htm"))
+  (old-page "content/umo_konsalt.htm"))
 
 (def/route news5 ("optek")
   (old-page "content/optek.htm"))
@@ -217,19 +217,19 @@
   (old-page "content/teory.htm"))
 
 (def/route articles4 ("history_zimsad")
-  (old-page "content/history-zimsad.htm"))
+  (old-page "content/history_zimsad.htm"))
 
 (def/route articles5 ("tehnich_har")
-  (old-page "content/tehnich-har.htm"))
+  (old-page "content/tehnich_har.htm"))
 
 (def/route articles6 ("spasti_offic")
-  (old-page "content/spasti-offic.htm"))
+  (old-page "content/spasti_offic.htm"))
 
 (def/route articles7 ("dom_offic")
-  (old-page "content/dom-offic.htm"))
+  (old-page "content/dom_offic.htm"))
 
 (def/route articles8 ("vibor_offic")
-  (old-page "content/vibor-offic.htm"))
+  (old-page "content/vibor_offic.htm"))
 
 ;; submodules
 
