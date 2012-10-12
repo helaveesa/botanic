@@ -276,33 +276,32 @@
 
     <div id="breadcrumbs"> </div>
 
-
-      <div id="overlay">
-        <div class="clearfix">
-          <div id="page-menu">
-            <ul class="clearfix no-list"> </ul>
-            <ul id="app-family-page-menu" class="clearfix no-list">
-              <li>
-                <a href="/galery ">Галерея</a>
-                <ul class="no-list">
-                  <li>
-                    <a href="/inter ">Оформление интерьеров</a>
-                  </li>
-                  <li>
-                    <a href="/oforml_int ">Услуги по интерьеру</a>
-                  </li>
-                  <li>
-                    <a href="/city ">Городское озеленение</a>
-                  </li>
-                  <li>
-                    <a href="/news ">Выполненные проекты</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+    <div id="overlay">
+      <div class="clearfix">
+        <div id="page-menu">
+          <ul class="clearfix no-list"> </ul>
+          <ul id="app-family-page-menu" class="clearfix no-list">
+            <li>
+              <a href="/galery ">Галерея</a>
+              <ul class="no-list">
+                <li>
+                  <a href="/inter ">Оформление интерьеров</a>
+                </li>
+                <li>
+                  <a href="/oforml_int ">Услуги по интерьеру</a>
+                </li>
+                <li>
+                  <a href="/city ">Городское озеленение</a>
+                </li>
+                <li>
+                  <a href="/news ">Выполненные проекты</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
         </div>
       </div>
+    </div>
     </header>
 
     <div id="main" role="main">
@@ -318,6 +317,9 @@
         </div>
       </section>
 
+    {$content |noAutoescape}
+
+    {$aaaa |noAutoescape}
 
       <section id="echo-platform" class="grey-level-5">
         <div>
