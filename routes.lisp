@@ -13,7 +13,7 @@
    :content-type "text/html"))
 
 (defun old-page (filename)
-  (tpl:root (list :content (alexandria:read-file-into-string filename) :aaaa "111111")))
+  (tpl:root (list :content (alexandria:read-file-into-string filename) )))
 
 
 ;; main
