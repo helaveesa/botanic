@@ -305,7 +305,7 @@
 
 {if $section1}
       <section class="feature">{\n}
-        <!-- <div id="banner">{\n}
+        <div id="banner">{\n}
           <div style="background: url('/img/garden.jpg') no-repeat center; background-position: 0 -100px;">{\n}
             <div class="banner-copy">{\n} -->
               {$section1 |noAutoescape}
@@ -313,21 +313,22 @@
             <!-- <span>Botanical.LAB - Красота вокруг нас...</span><br />{\n} -->
             <!-- <a href="{$link1}" class="btn btn-lge">{$featuretitle |noAutoescape}</a>{\n} -->
             <!-- <a href="/mapsite" class="btn btn-lge">Подробнее</a>{\n} -->
-            <!--</div>{\n}
+            </div>{\n}
           </div>{\n}
-        </div>{\n} -->
+        </div>{\n}
       </section>{\n}
 {/if}
 
-{if $banner}
+<!-- {if $banner}
   <div id="banner">{\n}
+    {$banner |noAutoescape}
           <div style="background: url('/img/garden.jpg') no-repeat center; background-position: 0 -100px;">{\n}
             <div class="banner-copy">
-              <!-- <img src="/img/{$banner}" /> -->
+              /// <img src="/img/{$banner}" /> ///
             </div>
          </div>
   </div>
-{/if}
+{/if} -->
 
 {if $content}
 <section id="positions">{\n}
@@ -348,6 +349,7 @@
       <section id="echo-platform" class="grey-level-5">
         <div>
           <div>
+            {$main |noAutoescape}
             <h2>
               <a href="/service">Услуги компании Botanical.LAB</a>
             </h2>
