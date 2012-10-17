@@ -15,19 +15,14 @@
                      :content (tpl:base (list :navpoints navpoints
                                               :content content
                                               :banner banner
+                                              :main main
+                                              :base base
+                                              :article article
+                                              :industry industry
                                               :section1 section1
                                               :textfeature textfeature
                                               :featuretitle featuretitle
                                               :link2 link2
-                                              :section2 section2
-                                              :text3 text3
-                                              :title3 title3
-                                              :link3 link3
-                                              :section3 section3
-                                              :text4 text4
-                                              :title4 title4
-                                              :link4 link4
-                                              :section4 section4
                                               :stat (tpl:stat)))))))
 
 
