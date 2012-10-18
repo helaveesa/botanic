@@ -303,21 +303,30 @@
 
     <div id="main" role="main">
 
-{if $section1}
       <section class="feature">{\n}
         <div id="banner">{\n}
           <div style="background: url('/img/garden.jpg') no-repeat center; background-position: 0 -100px;">{\n}
-            <div class="banner-copy">{\n} -->
-              {$section1 |noAutoescape}
-            <!-- <span>{$textfeature}</span><br />{\n} -->
-            <!-- <span>Botanical.LAB - Красота вокруг нас...</span><br />{\n} -->
-            <!-- <a href="{$link1}" class="btn btn-lge">{$featuretitle |noAutoescape}</a>{\n} -->
-            <!-- <a href="/mapsite" class="btn btn-lge">Подробнее</a>{\n} -->
+            <div class="banner-copy">{\n}
+              <span>Botanical.LAB - Красота вокруг нас...</span><br />{\n}
+            <a href="/mapsite" class="btn btn-lge">Подробнее</a>{\n}
             </div>{\n}
           </div>{\n}
         </div>{\n}
       </section>{\n}
-{/if}
+
+<!-- {if $section1}
+      <section class="feature">{\n}
+        <div id="banner">{\n}
+          <div style="background: url('/img/garden.jpg') no-repeat center; background-position: 0 -100px;">{\n}
+            <div class="banner-copy">{\n}
+              {$section1 |noAutoescape}
+            <span>{$textfeature}</span><br />{\n}
+             <a href="{$link1}" class="btn btn-lge">{$featuretitle |noAutoescape}</a>{\n}
+            </div>{\n}
+          </div>{\n}
+        </div>{\n}
+      </section>{\n}
+{/if} -->
 
 <!-- {if $banner}
   <div id="banner">{\n}
@@ -345,7 +354,7 @@
 </section>{\n}
 {/if}
 
-{if $main}
+<!-- {if $main} -->
       <section id="echo-platform" class="grey-level-5">
         <div>
           <div>
@@ -380,9 +389,9 @@
           </ul>
         </div>
       </section>
-{/if}
+<!-- {/if} -->
 
-{if $base}
+<!-- {if $base} -->
       <section id="app-ecosystem" class="grey-level-4">
         <div>
           <!-- {$base |noAutoescape} -->
@@ -433,9 +442,9 @@
           </ul>
         </div>
       </section>
-{/if}
+<!-- {/if} -->
 
-{if $article}
+<!-- {if $article} -->
       <section id="article-amc" class="article right">
         <div style="background: url('/img/pick/kistibig.jpg') no-repeat
                     scroll left 0px transparent;">
@@ -458,9 +467,9 @@
           </article>
         </div>
       </section>
-{/if}
+<!-- {/if} -->
 
-{if $industry}
+<!-- {if $industry} -->
       <section id="industry-solutions" class="grey-level-3">
         <div>
           <!-- {$industry |noAutoescape} -->
@@ -608,7 +617,6 @@
           </div>
         </div>
       </section>
-{/if}
 
       <section id="app-ecosystem" class="grey-level-4">
         <div class="pop">
