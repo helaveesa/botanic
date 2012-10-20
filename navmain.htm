@@ -13,7 +13,7 @@
 {template menublock}
   <li>{\n}
     <a href="{$headlink |noAutoescape}">{$headtitle |noAutoescape}</a>{\n}
-    <ul class="{$class |noAutoescape}">{\n}
+    <ul>{\n}
       {foreach $item in $menuitems}{\n}
         {call menuitem data="$item" /}{\n}
       {/foreach}{\n}
@@ -21,189 +21,26 @@
   </li>{\n}
 {/template}
 
+{template menugroup}
+  <li>
+    <a href="{$grouplink |noAutoescape}">{$grouptitle |noAutoescape}</a>
+    <nav class="{$groupclass |noAutoescape}">
+      <div class="up-arrow"></div>
+      <ul class="clearfix no-list">
+        {foreach $block in $menublocks}
+          {call menublock data="$block" /}
+        {/foreach}
+      </ul>
+    </nav>
+  </li>
+{/template}
+
 {template navmain}
   <nav id="nav-main">
     <ul class="clearfix no-list">
-      <li>
-        <a href="/about">О нас</a>
-        <nav class="sub-nav what-we-offer">
-          <div class="up-arrow"></div>
-          <ul class="clearfix no-list">
-            {foreach $block in $menublocks}
-              {call menublock data="$block" /}
-            {/foreach}
-          </ul>
-        </nav>
-      </li>
-      <li>
-        <a href="/catalog_flower">Растения</a>
-        <nav class="sub-nav customer-success">
-          <div class="up-arrow"></div>
-          <ul class="clearfix no-list">
-            {foreach $block in $menublocks}
-              {call menublock data="$block" /}
-            {/foreach}
-            <li>
-              <a href="/catr">Цветущие растения</a>
-              <ul>
-                <li>
-                  <a href="/visokie">Высокие</a>
-                </li>
-                <li>
-                  <a href="/dekor">Декоративные</a>
-                </li>
-                <li>
-                  <a href="/prices_flower">Цены</a>
-                </li>
-                <li>
-                  <a href="/rastenie_zimsad">Растения для зимнего сада</a>
-                </li>
-                <li>
-                  <a href="/rastenie_offic">Растения для офиса</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="/iskusstv_r">Искусственные растения</a>
-              <ul>
-                <li>
-                  <a href="/iskuss">Общие сведения</a>
-                </li>
-                <li>
-                  <a href="/prices_iskusstv_r">Цены</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="/catalog_kashpo">Каталог кашпо</a>
-              <ul>
-                <li>
-                  <a href="/prices_kashpo">Цены</a>
-                </li>
-                <li>
-                  <a href="/plastic">Пластик</a>
-                </li>
-                <li>
-                  <a href="/metall">Металл</a>
-                </li>
-                <li>
-                  <a href="/keramika">Керамика</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </li>
-      <li>
-        <a href="/service">Услуги</a>
-        <nav class="sub-nav partner-ecosystem">
-          <div class="up-arrow"></div>
-          <ul class="clearfix no-list">
-            {foreach $block in $menublocks}
-              {call menublock data="$block" /}
-            {/foreach}
-            <li>
-              <a href="/ozelenenie">Озеленение</a>
-              <ul>
-                <li>
-                  <a href="/city_ozelenenie">Городское озеленение</a>
-                </li>
-                <li>
-                  <a href="/landshaf_city">Ландшафтные работы в городе</a>
-                </li>
-                <li>
-                  <a href="/landshaf_village">Ландшафтные работы за городом</a>
-                </li>
-                <li>
-                  <a href="/fitodiz">Фитодизайн</a>
-                </li>
-                <li>
-                  <a href="/fitodiz_int">Интерьер</a>
-                </li>
-                <li>
-                  <a href="/zimsad">Зимний сад</a>
-                </li>
-                <li>
-                  <a href="/kompoz_flower">Композиции из цветов</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="/oforml_int">Оформление интерьеров</a>
-              <ul>
-                <li>
-                  <a href="/oforml_offic">Оформление офиса</a>
-                </li>
-                <li>
-                  <a href="/oforml_cafe">Оформление кафе</a>
-                </li>
-                <li>
-                  <a href="/flower_offic">Цветы для офиса</a>
-                </li>
-                <li>
-                  <a href="/rastenie_offic">Растения для офиса</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="/NY">Новогоднее оформление офиса</a>
-              <ul>
-                <li>
-                  <a href="/zimsad">Зимний сад</a>
-                </li>
-                <li>
-                  <a href="/oforml_spa">Оформление spa</a>
-                </li>
-                <li>
-                  <a href="/oforml_hotel">Оформление Hotel</a>
-                </li>
-                <li>
-                  <a href="/zimsad_cottadge">Оформление коттеджей</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </li>
-      <li>
-        <a href="/articles">Статьи</a>
-        <nav class="sub-nav about-echo">
-          <div class="up-arrow"></div>
-          <ul class="clearfix no-list">
-            {foreach $block in $menublocks}
-              {call menublock data="$block" /}
-            {/foreach}
-            <li>
-              <a href="/news">Новости</a>
-              <ul>
-                <li>
-                  <a href="/emkosti">Емкости для растений</a>
-                </li>
-                <li>
-                  <a href="/history_zimsad">История зимних садов</a>
-                </li>
-                <li>
-                  <a href="/dom_offic">Какие выбрать растения?</a>
-                </li>
-                <li>
-                  <a href="/spasti_offic">Комнатные растения в офисе</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="/akcii">Акции от Botanical.LAB</a>
-              <ul>
-                <li>
-                  <a href="/teory">Сад в теории</a>
-                </li>
-                <li>
-                  <a href="/tehnich_har">Техническое исполнение</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </li>
+      {foreach $group in $menugroups}
+        {call menugroup data="$group" /}
+      {/foreach}
     </ul>
   </nav>
 {/template}
