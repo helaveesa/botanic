@@ -2,6 +2,25 @@
 
 {namespace tpl}
 
+{template menuitem}
+  <li>{\n}
+    <a href="{$link |noAutoescape}">{\n}
+      {$title |noAutoescape}{\n}
+    </a>{\n}
+  </li>{\n}
+{/template}
+
+{template menublock}
+  <li>{\n}
+    <a href="{$headlink |noAutoescape}">{$headtitle |noAutoescape}</a>{\n}
+    <ul class="{$class |noAutoescape}">{\n}
+      {foreach $item in $menuitems}{\n}
+        {call menuitem data="$item" /}{\n}
+      {/foreach}{\n}
+    </ul>{\n}
+  </li>{\n}
+{/template}
+
 {template navmain}
   <nav id="nav-main">
     <ul class="clearfix no-list">
@@ -10,63 +29,11 @@
         <nav class="sub-nav what-we-offer">
           <div class="up-arrow"></div>
           <ul class="clearfix no-list">
-            <li>
-              <a href="/about_company">О компании</a>
-              <ul>
-                <li>
-                  <a href="/about_clients">Наши клиенты</a>
-                </li>
-                <li>
-                  <a href="/work">Этапы работы</a>
-                </li>
-                <li>
-                  <p class="organization_phone">+7 (921) 432-47-55<p/>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="/galery">Галерея</a>
-              <ul>
-                <li>
-                  <a href="/inter">Оформление интерьеров</a>
-                </li>
-                <li>
-                  <a href="/city">Городское озеленение</a>
-                </li>
-                <li>
-                  <a href="/landshaf">Ландшафтный дизайн</a>
-                </li>
-                <li>
-                  <a href="/landshafdiz">Услуги по дизайну</a>
-                </li>
-                <li>
-                  <a href="/dizint_zimsad">Услуги по зимнему дизайну</a>
-                </li>
-                <li>
-                  <a href="/news">Выполненные проекты</a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a href="/catalog">Каталог</a>
-              <ul>
-                <li>
-                  <a href="/catal">Общие сведения</a>
-                </li>
-                <li>
-                  <a href="/catr">Каталог растений</a>
-                </li>
-                <li>
-                  <a href="/catk">Каталог кашпо</a>
-                </li>
-                <li>
-                  <a href="/iskuss">Искусственные растения</a>
-                </li>
-              </ul>
-            </li>
+            {foreach $block in $menublocks}
+              {call menublock data="$block" /}
+            {/foreach}
           </ul>
         </nav>
-
       </li>
       <li>
         <a href="/catalog_flower">Растения</a>
