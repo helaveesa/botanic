@@ -13,13 +13,22 @@
    :content-type "text/html"))
 
 (defun old-page (filename)
-  (tpl:root (list :content (alexandria:read-file-into-string filename) )))
+  (tpl:root
+   (list :content (tpl:contentblock
+                   (list :content (alexandria:read-file-into-string filename))))))
 
 
 ;; main
 
 (restas:define-route main ("/")
-  (old-page "content/index.htm"))
+  (tpl:root (list :content
+                  (concatenate 'string
+                               (tpl:platform)
+                               (tpl:ecosystem)
+                               (tpl:amc)
+                               (tpl:solutions)
+                               (tpl:thrive)
+                               (tpl:app)))))
 
 
 ;; plan file pages
