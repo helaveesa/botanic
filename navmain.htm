@@ -40,6 +40,9 @@
         <nav class="sub-nav customer-success">
           <div class="up-arrow"></div>
           <ul class="clearfix no-list">
+            {foreach $block in $menublocks}
+              {call menublock data="$block" /}
+            {/foreach}
             <li>
               <a href="/catr">Цветущие растения</a>
               <ul>
@@ -96,6 +99,9 @@
         <nav class="sub-nav partner-ecosystem">
           <div class="up-arrow"></div>
           <ul class="clearfix no-list">
+            {foreach $block in $menublocks}
+              {call menublock data="$block" /}
+            {/foreach}
             <li>
               <a href="/ozelenenie">Озеленение</a>
               <ul>
@@ -164,6 +170,9 @@
         <nav class="sub-nav about-echo">
           <div class="up-arrow"></div>
           <ul class="clearfix no-list">
+            {foreach $block in $menublocks}
+              {call menublock data="$block" /}
+            {/foreach}
             <li>
               <a href="/news">Новости</a>
               <ul>
