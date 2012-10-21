@@ -24,8 +24,8 @@
 {template menugroup}
   <li>
     <a href="{$grouplink |noAutoescape}">{$grouptitle |noAutoescape}</a>
-    <nav class="{$groupclass |noAutoescape}">
-      <div class="up-arrow"></div>
+    <nav class="sub-nav">
+      <div class="up-arrow" style="left: {$left |noAutoescape}px"></div>
       <ul class="clearfix no-list">
         {foreach $block in $menublocks}
           {call menublock data="$block" /}

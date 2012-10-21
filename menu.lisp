@@ -3,7 +3,7 @@
 (defun menu ()
   (list :menugroups
         (mapcar #'(lambda (menugroup)
-                    (list :grouptitle (car menugroup) :grouplink (cadr menugroup) :groupclass (caddr menugroup)
+                    (list :grouptitle (car menugroup) :grouplink (cadr menugroup) :left (caddr menugroup)
                           :menublocks (mapcar #'(lambda (menublock)
                                                   (list :headtitle (car menublock) :headlink (cadr menublock)
                                                         :menuitems (mapcar #'(lambda (menuitem)
@@ -12,7 +12,7 @@
                                               (cadddr menugroup))))
                 '(("O нас"
                    "/about"
-                   "sub-nav what-we-offer"
+                   "0"
                    (("О компании"
                      "/about_company"
                      (("Наши клиенты" "/about_clients")
@@ -33,7 +33,7 @@
                       ("Искусственные растения" "/iskuss")))))
                   ("Растения"
                    "/catalog_flower"
-                   "sub-nav customer-success"
+                   "83"
                    (("Цветущие растения"
                      "/catr"
                      (("Высокие" "/visokie")
@@ -53,7 +53,7 @@
                       ("Керамика" "/keramika")))))
                   ("Услуги"
                    "/service"
-                   "sub-nav customer-success"
+                   "175"
                    (("Озеленение"
                      "/ozelenenie"
                      (("Городское озеленение" "/city_ozelenenie")
@@ -77,7 +77,7 @@
                       ("Оформление коттеджей" "/zimsad_cottadge")))))
                   ("Статьи"
                    "/articles"
-                   "sub-nav about-echo"
+                   "258"
                    (("Новости"
                      "/news"
                      (("Емкости для растений" "/emkosti")
