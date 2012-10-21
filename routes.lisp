@@ -14,7 +14,8 @@
 
 (defun old-page (filename)
   (tpl:root
-   (list :content (tpl:contentblock
+   (list :navmain (tpl:navmain (menu))
+         :content (tpl:contentblock
                    (list :content (alexandria:read-file-into-string filename))))))
 
 
