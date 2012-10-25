@@ -24,6 +24,7 @@
 (restas:define-route main ("/")
   (tpl:root (list :navmain (tpl:navmain (menu))
                   :content (concatenate 'string
+                                        ;;(tpl:feature)
                                         (tpl:platform)
                                         (tpl:ecosystem)
                                         (tpl:amc)
