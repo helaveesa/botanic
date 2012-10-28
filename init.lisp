@@ -2,10 +2,11 @@
 
 (defun menu ()
   '((:link "/" :title "Главная")
-    (:link "/about" :title "О нас")
+    (:link "/about" :title "Botanical.LAB")
     (:link "/about_company" :title "О компании")
     (:link "/about_clients" :title "Наши-клиенты")
     (:link "/work" :title "Этапы работы")
+    (:link "/greenpage" :title "Зеленая страничка")
     (:link "/galery" :title "Галерея")
     (:link "/inter" :title "Оформление-интерьеров")
     (:link "/oforml_int" :title "Услуги по интерьеру")

@@ -10,13 +10,14 @@
                                                                                (list :title (car menuitem) :link (cadr menuitem)))
                                                                            (caddr menublock))))
                                               (cadddr menugroup))))
-                '(("O нас"
+                '(("Botanical.LAB"
                    "/about"
                    "0"
                    (("О компании"
                      "/about_company"
                      (("Наши клиенты" "/about_clients")
-                      ("Этапы работы" "/work")))
+                      ("Этапы работы" "/work")
+                      ("Зеленая страничка" "/greenpage")))
                     ("Галерея"
                      "/galery"
                      (("Оформление интерьеров" "/inter")

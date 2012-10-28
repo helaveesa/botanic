@@ -57,6 +57,9 @@
 (def/route about4 ("work")
   (old-page "content/work.htm"))
 
+(def/route about5 ("greenpage")
+  (old-page "content/greenpage.htm"))
+
 (def/route galery ("galery")
   (old-page "content/galery.htm"))
 
