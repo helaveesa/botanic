@@ -37,7 +37,9 @@
           <div id="header-top">
             <a class="echo-logo" href="/"></a>
 
-            {$navmain |noAutoescape}
+            <!-- {$navmain |noAutoescape} -->
+<!-- sect test -->
+            {$test |noAutoescape}
 
           </div>
 
@@ -45,11 +47,11 @@
         </header>
 
         <div id="main" role="main">
-
+<!-- sect with banner -->
           {call feature /}
-
+<!-- sect content -->
           {$content |noAutoescape}
-
+<!-- sect footer -->
           {call footer /}
 
         </div>
