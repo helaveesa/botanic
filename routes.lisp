@@ -15,6 +15,7 @@
 (defun old-page (filename)
   (tpl:root
    (list :navmain (tpl:navmain (menu))
+         :footer (tpl:footer (menufooter))
          ;;:test (tpl:test (menu))
          :content (tpl:contentblock
                    (list :content (alexandria:read-file-into-string filename))))))
@@ -24,6 +25,7 @@
 
 (restas:define-route main ("/")
   (tpl:root (list :navmain (tpl:navmain (menu))
+                  :footer (tpl:footer (menufooter))
                   ;;:test (tpl:test (menu))
                   :content (concatenate 'string
                                         (tpl:platform)
