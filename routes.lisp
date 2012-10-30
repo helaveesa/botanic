@@ -16,7 +16,8 @@
   (tpl:root
    (list :navmain (tpl:navmain (menu))
          :content (tpl:contentblock
-                   (list :content (alexandria:read-file-into-string filename))))))
+                   (list :content (alexandria:read-file-into-string filename)))
+         :footer (tpl:footer (menufooter)))))
 
 
 ;; main
@@ -30,7 +31,8 @@
                                 (tpl:amc)
                                 (tpl:solutions)
                                 (tpl:thrive)
-                                (tpl:app)))))
+                                (tpl:app)
+         :footer (tpl:footer (menufooter))))))
 
 
 ;; plan file pages

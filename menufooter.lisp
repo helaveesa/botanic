@@ -1,15 +1,12 @@
-;;(in-package #:botanic)
+(in-package #:botanic)
 
-;;(defun menu ()
-  ;;(list :menugroups
-        ;;(mapcar #'(lambda (menugroup)
-                    ;;(list :grouptitle (car menugroup) :grouplink (cadr menugroup) :left (caddr menugroup)
-                         ;;:menublocks (mapcar #'(lambda (menublock)
-                                                  ;;(list :headtitle (car menublock) :headlink (cadr menublock)
-                                                        ;;(list :menuitems (mapcar #'(lambda (menuitem)
-                                                                               ;;(list :title (car menuitem) :link (cadr menuitem))))))
-                                                                           ;;(caddr menublock)))))
-                                              ;;(cadddr menugroup))))
+(defun menufooter ()
+  (list :menugroups
+        (mapcar #'(lambda (menugroup)
+                    (list :grouptitle (car menugroup) :grouplink (cadr menugroup)
+                                                        (list :menuitems (mapcar #'(lambda (menuitem)
+                                                                               (list :title (car menuitem) :link (cadr menuitem))))))
+                                              (cadddr menugroup))))
                 '(("Botanical.LAB"
                    "/about"
                     ("О компании" "/about_company")

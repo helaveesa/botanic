@@ -2,23 +2,15 @@
 
 {namespace tpl}
 
-<!-- {template menuitem}
+{template menuitem}
   <li>{\n}
     <a href="{$link |noAutoescape}">{\n}
       {$title |noAutoescape}{\n}
     </a>{\n}
   </li>{\n}
-{/template} -->
-
-{template menuitem}
-  <li>{\n}
-    <a href="/akcii">{\n}
-      Акции_тест{\n}
-    </a>{\n}
-  </li>{\n}
 {/template}
 
-<!-- {template menublock}
+{template menublock}
   <li>{\n}
     <a href="{$headlink |noAutoescape}">{$headtitle |noAutoescape}</a>{\n}
     <ul>{\n}
@@ -27,20 +19,9 @@
       {/foreach}{\n}
     </ul>{\n}
   </li>{\n}
-{/template} -->
-
-{template menublock}
-  <li>{\n}
-    <a href="/about_company">Botanical.LAB</a>{\n}
-    <ul>{\n}
-      {foreach $item in $menuitems}{\n}
-        {call menuitem data="$item" /}{\n}
-      {/foreach}{\n}
-    </ul>{\n}
-  </li>{\n}
 {/template}
 
-<!-- {template menugroup}
+{template menugroup}
   <li>
     <a href="{$grouplink |noAutoescape}">{$grouptitle |noAutoescape}</a>
     <nav class="sub-nav">
@@ -49,20 +30,6 @@
         {foreach $block in $menublocks}
           {call menublock data="$block" /}
         {/foreach}
-      </ul>
-    </nav>
-  </li>
-{/template} -->
-
- {template menugroup}
-  <li>
-    <a href="/news">Новости_тест</a>
-    <nav class="sub-nav">
-      <div class="up-arrow" style="left: {$left |noAutoescape}px"></div>
-      <ul class="clearfix no-list">
-        <!-- {foreach $block in $menublocks}
-          {call menublock data="$block" /}
-        {/foreach} -->
       </ul>
     </nav>
   </li>
