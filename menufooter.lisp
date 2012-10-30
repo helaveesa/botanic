@@ -1,13 +1,13 @@
-(in-package #:botanic)
+;;(in-package #:botanic)
 
-(defun menu ()
+;;(defun menu ()
   ;;(list :menugroups
         ;;(mapcar #'(lambda (menugroup)
                     ;;(list :grouptitle (car menugroup) :grouplink (cadr menugroup) :left (caddr menugroup)
                          ;;:menublocks (mapcar #'(lambda (menublock)
                                                   ;;(list :headtitle (car menublock) :headlink (cadr menublock)
-                                                        (list :menuitems (mapcar #'(lambda (menuitem)
-                                                                               (list :title (car menuitem) :link (cadr menuitem))))))
+                                                        ;;(list :menuitems (mapcar #'(lambda (menuitem)
+                                                                               ;;(list :title (car menuitem) :link (cadr menuitem))))))
                                                                            ;;(caddr menublock)))))
                                               ;;(cadddr menugroup))))
                 '(("Botanical.LAB"

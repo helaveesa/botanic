@@ -15,7 +15,7 @@
   :components   ((:static-file "templates.htm")
                  (:file "defmodule")
                  (:file "menu")
-                 (:file "menufooter")
+                 ;;(:file "menufooter")
                  (:file "render")
                  (:file "routes")
                  (:file "init")))
