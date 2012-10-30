@@ -22,14 +22,15 @@
 ;; main
 
 (restas:define-route main ("/")
-  (tpl:root (list :navmain (tpl:navmain (menu))
-                  :content (concatenate 'string
-                                        (tpl:platform)
-                                        (tpl:ecosystem)
-                                        (tpl:amc)
-                                        (tpl:solutions)
-                                        (tpl:thrive)
-                                        (tpl:app)))))
+  (tpl:root
+   (list :navmain (tpl:navmain (menu))
+         :content (concatenate 'string
+                                (tpl:platform)
+                                (tpl:ecosystem)
+                                (tpl:amc)
+                                (tpl:solutions)
+                                (tpl:thrive)
+                                (tpl:app)))))
 
 
 ;; plan file pages
