@@ -2,15 +2,23 @@
 
 {namespace tpl}
 
-{template menuitem}
+<!-- {template menuitem}
   <li>{\n}
     <a href="{$link |noAutoescape}">{\n}
       {$title |noAutoescape}{\n}
     </a>{\n}
   </li>{\n}
+{/template} -->
+
+{template mitemtest}
+  <li>{\n}
+      <a 9876543210>{\n}
+      chislovoi ryad{\n}
+    </a>{\n}
+  </li>{\n}
 {/template}
 
-{template menugroup}
+<!-- {template menugroup}
   <li>
     <a href="{$grouplink |noAutoescape}">{$grouptitle |noAutoescape}</a>
       <ul class="clearfix no-list">
@@ -19,15 +27,47 @@
         {/foreach}
       </ul>
   </li>
+{/template} -->
+
+{template mgrouptest}
+  <li>
+    <a ADC123>Kod for my bag</a>
+      <ul class="clearfix no-list">
+        {foreach $itemstest in $mitemstest}
+          {call mitemtest data="$itemstest" /}
+        {/foreach}
+      </ul>
+  </li>
 {/template}
 
-{template footer}
+<!-- {template footer}
   <footer id="footer">
     <div class="clearfix">
       <nav>
         <ul class="clearfix no-list">
           {foreach $group in $menugroups}
             {call menugroup data="$group" /}
+          {/foreach}
+        </ul>
+        <img src="/img/minipick/mail.gif" width="" height="" alt="mail-botanic" />
+        <a href='mailto:info@botanical-lab.ru' class="organization_male">info@botanical-lab.ru</a>
+        <br />
+        <br />
+        <br />
+        <br />
+        © Все права защищены. С-Пб.&nbsp; 2010
+      </nav>
+    </div>
+  </footer>
+{/template} -->
+
+{template footertest}
+  <footer id="footer">
+    <div class="clearfix">
+      <nav>
+        <ul class="clearfix no-list">
+          {foreach $grouptest in $mgroups}
+            {call mgrouptest data="$grouptest" /}
           {/foreach}
         </ul>
         <img src="/img/minipick/mail.gif" width="" height="" alt="mail-botanic" />
