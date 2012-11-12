@@ -17,7 +17,7 @@
    (list :navmain (tpl:navmain (menu))
          :content (tpl:contentblock
                    (list :content (alexandria:read-file-into-string filename)))
-         :ftest (tpl:ftest (menufootertest)))))
+         ;;:ftest (tpl:ftest (menufootertest)))))
          ;;:footer (tpl:footer (menufooter)))))
 
 
@@ -33,7 +33,7 @@
                                 (tpl:solutions)
                                 (tpl:thrive)
                                 (tpl:app)
-         :ftest (tpl:ftest (menufootertest))))))
+         ;;:ftest (tpl:ftest (menufootertest))))))
          ;;:footer (tpl:footer (menufooter))))))
 
 
