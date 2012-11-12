@@ -15,8 +15,6 @@
   :components   ((:static-file "templates.htm")
                  (:file "defmodule")
                  (:file "menu")
-                 ;;(:file "mfootertest")
-                 ;;(:file "menufooter")
                  (:file "render")
                  (:file "routes")
                  (:file "init")))
