@@ -4,7 +4,7 @@
   :version      "0.0.2"
   :author       "rigidus <i.am.rigidus@gmail.com>"
   :licence      "GPLv3"
-  :description  "site http://rigidus.ru"
+  :description  "site http://botanic-lab.ru"
   :depends-on   (#:closer-mop
                  #:cl-ppcre
                  #:restas-directory-publisher
